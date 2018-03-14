@@ -2,7 +2,7 @@ import json
 import requests
 import os
 from helpers import fallback_to_file
-import config #need this localy
+import config #need this locally
 
 
 token = os.environ["github_api_key"]

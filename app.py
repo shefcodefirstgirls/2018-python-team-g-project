@@ -8,10 +8,10 @@ consumer_secret = os.environ["twitter_consumer_secret"]
 access_token = os.environ["twitter_access_token"]
 access_token_secret = os.environ["twitter_access_token_secret"]
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-
-api = tweepy.API(auth)
+def authenticate():
+    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+    return tweepy.API(auth)
 
 from flask import Flask, render_template, request
 
@@ -23,11 +23,13 @@ def home():
 #need to design frontend in "mainpage.html"
 #still has log in boxes
 
-@app.route("/hashtags")
-def hashtagscrape():
+#@app.route("/hashtags")
+def hashtagscrape(keyword):
+    keyword= keyword.strip
 
     return render_template("index.html")
 
+print("keyword")
 # app actions??
 # https://developer.twitter.com/en/docs/tweets/enrichments/overview/profile-geo
 # https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/all-operators
