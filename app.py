@@ -25,6 +25,11 @@ def get_feedback():
 
     return render_template("feedback.html", form_data=data)
 
+@app.route("/about")
+def about():
+    profiles = get_profiles()
+    return render_template("about.html", members=profiles, enumerate=enumerate)    
+
 """
 This piece of logic checks whether you are running the app locally or on Heroku
 (make an account at https://www.heroku.com/ before the deployment session!). When
