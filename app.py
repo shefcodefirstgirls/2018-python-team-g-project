@@ -1,5 +1,6 @@
 import os
 import tweepy
+from graphiql_request import get_profiles
 import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
