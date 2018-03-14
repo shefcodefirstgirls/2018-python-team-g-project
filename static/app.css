@@ -1,9 +1,10 @@
 h1 {
   font-family: Arial, sans-serif;
+  background-color: : red;
 }
 
 body {
-  background-color: pink;
+  background-color: lightblue;
 }
 
 nav ul {
@@ -17,3 +18,71 @@ nav ul li {
   display: inline;
   margin-right: 20px;
 }
+
+
+/*About*/
+.about-container {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "block block1 block2" 
+    "block3 block4 block5";
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 2fr 2fr;
+}
+
+@media screen and (max-width: 750px) {
+  .about-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "block block1"
+    "block2 block3"
+    "block4 block5";
+    grid-auto-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-container {
+    grid-template-columns: minmax(220px, 1fr);
+    grid-template-areas:
+    "block"
+    "block1"
+    "block2"
+    "block3"
+    "block4"
+    "block5";
+  }
+}
+
+@supports not (display: grid) {
+  .about-container {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blocks {
+    flex: 1 1 100%;
+  }
+}
+
+.block {
+  text-align: center;
+}
+
+/* About the site*/
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+    
+  }

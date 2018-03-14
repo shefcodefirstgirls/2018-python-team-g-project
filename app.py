@@ -1,6 +1,7 @@
 import os
 import tweepy
-#import config #delete before deployment, but need it for local testing
+from graphiql_request import get_profiles
+import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
 consumer_secret = os.environ["twitter_consumer_secret"]
@@ -12,16 +13,16 @@ from flask import Flask, render_template, request
 app = Flask("my_first_app")
 
 @app.route("/")
-def say_hello():
+def home():
     return render_template("index.html")
 
-@app.route("/<name>")
-def say_hello_to(name):
-    return render_template("hello.html", user=name)
+# @app.route("/<name>")
+# def say_hello_to(name):
+#     return render_template("hello.html", user=name)
 
-@app.route("/feedback", methods=["POST"])
-def get_feedback():
-    data = request.values
+# @app.route("/feedback", methods=["POST"])
+# def get_feedback():
+#     data = request.values
 
     return render_template("feedback.html", form_data=data)
 
