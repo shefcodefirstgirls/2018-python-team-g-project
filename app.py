@@ -1,4 +1,11 @@
 import os
+import tweepy
+#import config #delete before deployment, but need it for local testing
+
+consumer_key = os.environ["twitter_consumer_key"]
+consumer_secret = os.environ["twitter_consumer_secret"]
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+
 
 from flask import Flask, render_template, request
 
