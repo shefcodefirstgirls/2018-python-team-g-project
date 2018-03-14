@@ -1,29 +1,36 @@
 import os
 import tweepy
-#import config #delete before deployment, but need it for local testing
+import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
 consumer_secret = os.environ["twitter_consumer_secret"]
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
 
 from flask import Flask, render_template, request
 
-app = Flask("my_first_app")
+app = Flask("teamg_app")
 
 @app.route("/")
-def say_hello():
+def index():
     return render_template("index.html")
 
-@app.route("/<name>")
-def say_hello_to(name):
-    return render_template("hello.html", user=name)
+# @app.route("/<name>")
+# def say_hello_to(name):
+#     return render_template("hello.html", user=name)
+#
+# @app.route("/feedback", methods=["POST"])
+# def get_feedback():
+#     data = request.values
+#     return render_template("feedback.html", form_data=data)
 
-@app.route("/feedback", methods=["POST"])
-def get_feedback():
-    data = request.values
-
-    return render_template("feedback.html", form_data=data)
+@app.route("/about") #from kat
+def about():
+    profiles = get_profiles()
+    return render_template("about.html", members=profiles, enumerate=enumerate)
 
 """
 This piece of logic checks whether you are running the app locally or on Heroku
