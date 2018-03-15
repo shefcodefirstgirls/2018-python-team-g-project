@@ -24,10 +24,10 @@ from flask import Flask, render_template, request
 
 app = Flask("teamg_app")
 
-# @app.route("/")
-# def home():
+@app.route("/")
+def home():
 #   hashtags= get_hashtags()
-#     return render_template("index.html")
+    return render_template("index.html")
 ##need to design frontend in "mainpage.html"
 ##still has log in boxes
 
