@@ -5,29 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>First Flask app</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  <title>Team G</title>
+
   <!--link to bootstrap-->
-    <!-- '../'' is to direct it to look back to main-->
-    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel='stylesheet'>
+    <link href="{{ url_for('static', filename='bootstrap.css') }}" rel='stylesheet'>
   <!--link to jquery-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>  
-    <!--Title on tab bar-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- JS autocomplete file -->
-    <script src="{{ url_for('static', filename='EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js') }}"></script> 
-    <!-- CSS autocomplete file -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='EasyAutocomplete-1.3.5/easy-autocomplete.min.css') }}"> 
-  <!--Glyphicon-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>  
       <!--link to stylesheet-->
-
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel='stylesheet' type='text/css' href="{{ url_for('static', filename='css/stylesheet.css') }}">
-    <script src="{{url_for('static', filename='js/drugs.js')}}"></script>
-    <link rel="icon" href="{{ url_for('static', filename='Pills128.png') }}" sizes="any" type="image/png">
+      <link rel='stylesheet' type='text/css' href="{{ url_for('static', filename='app.css') }}">
+    <!-- favicon -->
+<!--     <link rel="icon" href="{{ url_for('static', filename='') }}" sizes="any" type="image/png"> -->
 </head>
 
 <body>
@@ -36,7 +26,7 @@
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand">Team-g</a>
+        <a class="navbar-brand">Team-G</a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -46,7 +36,7 @@
       </div>
       <div class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li class="active">
+        <li>
           <a href="{{url_for('home')}}">Home</a>
         </li>
         <li>
