@@ -30,8 +30,8 @@ def get_hashtags(api):
 		location = tweet.location if hasattr(tweet, 'location') else "Undefined location"
 		# location = api.search(q,) 
 		# return r.json()["location"]
-		locations.append(location) 
-		return locations
+		# locations.append(location) 
+		return location
         # csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')]) 
  
 # location = API.search(q,) 
