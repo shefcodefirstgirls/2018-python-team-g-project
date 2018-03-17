@@ -1,19 +1,16 @@
 import os
 import tweepy
 from graphiql_request import get_profiles
-from hashtags import get_hashtags
-import config #delete before deployment, but need it for local testing
-from tweepy import Stream, OAuthHandler
+# from hashtags import get_hashtags
+from hashtag_test import get_hashtags, authenticate, collect_tweets, show_content
 import csv
+from flask import Flask, render_template, request
+import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
 consumer_secret = os.environ["twitter_consumer_secret"]
 access_token = os.environ["twitter_access_token"]
 access_token_secret = os.environ["twitter_access_token_secret"]
-
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth)
 
 # @app.route("/feedback", methods=["POST"])
 # def get_feedback():
@@ -22,8 +19,6 @@ api = tweepy.API(auth)
 
 #searchterm = ["#womenintech",]
 #user input to gather hashtag to search??
-
-from flask import Flask, render_template, request
 
 app = Flask("teamg_app")
 
@@ -36,6 +31,15 @@ def home():
 def about():
     profiles = get_profiles()
     return render_template("about.html", members=profiles, enumerate=enumerate)
+
+@app.route("/hashtags")
+def hashtags():
+	api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
+	tweets= get_hashtags(api)
+	# tweets = collect_tweets("#sheffield", 10, api)
+	return tweets
+
+# hashtags= get_hashtags()
 
 """
 This piece of logic checks whether you are running the app locally or on Heroku
