@@ -1,38 +1,26 @@
 import csv
-import cgi
 import tweepy
-from helpers import hashtagcheck
-#from hashtag_help import collect_tweets, show_content
-# import pandas as pd
+import config
 
-searchterm = ["#shefcodefirst",]
-print(searchterm)
+#searchterm="#ShefCodeFirst"
+#print("searchterm loaded from code")
 
 def authenticate(consumer_key, consumer_secret, access_token, access_token_secret):
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     return tweepy.API(auth)
 
-# Open/Create/write a file to append data
-csvFile = open('WiT.csv', 'a')
-csvWriter = csv.writer(csvFile)
-
-# form=web.input()
-# print form.searchbox
-
-# form=cgi.FieldStorage()
-# searchterm = form.getvalue('searchbox')
-
-def get_hashtags():
-    searchterm = hashtagcheck()
-    search_hashtag = tweepy.Cursor(api.search,q=searchterm,lang="en").items(10)
+def get_hashtags(api):
+    # searchterm = hashtagcheck(searchterm)
+    csvFile = open('tweets.csv', 'a')
+    csvWriter = csv.writer(csvFile)
+    search_hashtag = tweepy.Cursor(api.search,q=searchterm).items()
     for tweet in search_hashtag:
-        return csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])#,tweet.user.location.encode('utf8')])
-        # show_content(tweets)
-        print (tweet.user.location.encode('utf8'))#, tweet.created_at, tweet.text)
-        # # print json.dumps(tweet, json.dumps(trends,ident=1))
-        # print(searchterm)
-# def get_hashtags():#api):
+        return csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8'), tweet.user.location.encode('utf-8'),tweet.user.time_zone,tweet.place,tweet.coordinates])
+#        csvFile.close()
+        print(tweet.user.location)
+
+# def get_hashtags(api):
 # 	locations = []
 # 	all_tweets = tweepy.Cursor(api.search,q=searchterm,lang="en").items()
 # 	for tweet in all_tweets:

@@ -1,25 +1,36 @@
 {% include "header.html" %}
   <!-- <h1>Hashtag map!</h1> -->
-
-  <form class="search" action="/hashtags.py" method="POST">
-    <input type="text" placeholder="#" name="searchbox" id = "name" value='{{ query }}' required >
+  <form action="/hashtags" method="get">
+    <input type="text" placeholder="#" name="searchbox">
     <input type="submit" value="Search!">
-    <!-- <input type="search" placeholder="Search here..." name="searchbox" value='{{ query }}' required> -->
-
-    <ul class="nav navbar-nav">
-      <li>
-        <a href="{{url_for('home')}}">#womenintech</a>
-      </li>
-      <li>
-        <a href="{{url_for('home')}}">#STEM</a>
-      </li>
-      <li>
-        <a href="{{url_for('home')}}">#ShefCodeFirst</a>
-      </li>
-      <li>
-        <a href="{{url_for('home')}}">#WeAreTechWomen</a>
-      <li/>
-    </ul>
+    <!-- <select id="Options">
+        <option value="#womenintech">#womenintech</option>
+        <option value="#STEM">#STEM</option>
+        <option value="#shefcodefirst">#ShefCodeFirst</option>
+        <option value="WeAreTechWomen">#WeAreTechWomen</option>
+    </select>-->
   </form>
+
+  <section>
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="{{url_for('home')}}">#womenintech</a>
+          <!-- 'home' links for now!! -->
+        </li>
+        <li>
+          <a href="{{url_for('home')}}">#STEM</a>
+        </li>
+        <li>
+          <a href="{{url_for('home')}}">#ShefCodeFirst</a>
+        </li>
+        <li>
+          <a href="{{url_for('home')}}">#WeAreTechWomen</a>
+        <li/>
+      </ul>
+  <section/>
+
+  <div id="mapid" style="height: 500px; width: 500px;"></div>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+
 </body>
 </html>
