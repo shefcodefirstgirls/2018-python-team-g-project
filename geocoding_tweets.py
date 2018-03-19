@@ -3,6 +3,9 @@ import sys
 from pygeocoder import Geocoder
 from geopy.geocoders import Nominatim
 from flask.json import jsonify
+from flask import Flask
+
+app = Flask(__name__)
 
 def shorten_json(json_file):
 	short_json = []
@@ -16,7 +19,7 @@ def shorten_json(json_file):
 	# 			short_json.append(entry)
 
 	#variable
-	j = jsonify(json_file)
+	j = json.loads(json_file)
 	for i, item in enumerate(j):
 		entry = {'created_at': item['created_at'], 'id_str': item['id_str'], 'text': item['text'], 'hashtags': item['entities']['hashtags'], 'name': item['user']['name'], 'screen_name': item['user']['screen_name'], 'location': item['user']['location'], 'time_zone': item['user']['time_zone'], 'coordinates': item['coordinates'], 'retweet_count': item['retweet_count'], 'favorite_count': item['favorite_count'] }
 		short_json.append(entry)
@@ -26,7 +29,7 @@ def shorten_json(json_file):
 
 def geolocate_tweet(json_file):
 	geolocator = Nominatim()
-
+	short_json = json_file
 	for i, item in enumerate(short_json):
 		tweet_coordinates = item['coordinates']
 		tweet_location = item['location']
@@ -60,7 +63,20 @@ def geolocate_tweet(json_file):
 				item['lat'] = location.latitude
 			# print(location.address)
 			# print(location.latitude, location.longitude)
+		else:
+			del item
+			print("no location")
 	return short_json
+
+@app.route("/api/tweets")
+def get_all_markers(json_file):
+    markers = json_file
+    return markers
+# @app.route("/api/drugs")
+# def get_all_drugs():
+#     drugs = Drug.query.all()
+#     return jsonify({"drugs": [drug.name for drug in drugs]})
+
 
 # short_json = shorten_json("test_tweets.json")
 # short_json = geolocate_tweet(short_json)

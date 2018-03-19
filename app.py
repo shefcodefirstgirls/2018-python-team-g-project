@@ -5,7 +5,8 @@ from graphiql_request import get_profiles
 from hashtag_test import get_hashtags, authenticate, collect_tweets, show_content
 import csv
 from flask import Flask, render_template, request
-from geocoding_tweets import shorten_json, geolocate_tweet
+from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
+from flask.json import jsonify
 
 import config #delete before deployment, but need it for local testing
 
@@ -24,9 +25,13 @@ access_token_secret = os.environ["twitter_access_token_secret"]
 
 app = Flask("teamg_app")
 
+# short_json = open("test_tweets.json")
+
+
 @app.route("/")
 def home():
-    return render_template("index.html")
+	# markers = get_all_markers(short_json)
+	return render_template("index.html")
 # hashtags= get_hashtags()
 
 @app.route("/about") #from kat
@@ -40,8 +45,10 @@ def hashtags():
 	tweets= get_hashtags(api)
 	# tweets = collect_tweets("#sheffield", 10, api)
 	short_json = shorten_json(tweets)
-	short_json = geolocate_tweet(short_json)
-	return short_json
+	loc_json = geolocate_tweet(short_json)
+	# return short_json
+	# return loc_json #doesnt want to return a list 
+	return jsonify({"markers": [tweet for i, tweet in enumerate(loc_json)]})
 
 # hashtags= get_hashtags()
 

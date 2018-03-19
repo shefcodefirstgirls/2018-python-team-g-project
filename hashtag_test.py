@@ -26,7 +26,7 @@ def collect_tweets(keyword, stop_num, twitter):
 def get_hashtags(api): 
 	locations = []
 	j_tweets = []
-	all_tweets = tweepy.Cursor(api.search,q="#womenintech",lang="en").items(1)
+	all_tweets = tweepy.Cursor(api.search,q="#womenintech",lang="en").items(3)
 	for tweet in all_tweets:
 		content = tweet.created_at
 		text = tweet.text
