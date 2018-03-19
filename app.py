@@ -5,6 +5,8 @@ from graphiql_request import get_profiles
 from hashtag_test import get_hashtags, authenticate, collect_tweets, show_content
 import csv
 from flask import Flask, render_template, request
+from geocoding_tweets import shorten_json, geolocate_tweet
+
 import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
@@ -37,7 +39,9 @@ def hashtags():
 	api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
 	tweets= get_hashtags(api)
 	# tweets = collect_tweets("#sheffield", 10, api)
-	return tweets
+	short_json = shorten_json(tweets)
+	short_json = geolocate_tweet(short_json)
+	return short_json
 
 # hashtags= get_hashtags()
 

@@ -1,6 +1,7 @@
 import csv 
 import tweepy 
 from flask.json import jsonify
+import json
 # import pandas as pd 
 # Open/Create a file to append data 
 # csvFile = open('WiT.csv', 'a') 
@@ -24,18 +25,31 @@ def collect_tweets(keyword, stop_num, twitter):
 
 def get_hashtags(api): 
 	locations = []
-	all_tweets = tweepy.Cursor(api.search,q="#womenintech",lang="en").items(1000)
+	j_tweets = []
+	all_tweets = tweepy.Cursor(api.search,q="#womenintech",lang="en").items(1)
 	for tweet in all_tweets:
 		content = tweet.created_at
 		text = tweet.text
+		user = tweet.user.screen_name
+		user = tweet.user.location
+		user = tweet.user.time_zone
 		location = tweet.location if hasattr(tweet, 'location') else "Undefined location"
-		# location = api.search(q,) 
-		# return r.json()["location"]
-		locations.append(location) 
-		# return locations
-	return jsonify({'locations': locations})
+		place = tweet.place if hasattr(tweet, 'place') else "Undefined place"
+		place = getattr(tweet, 'place', "Undefined place")
+
+
+		locations.append(str(user)) 
+		# return place
+		j_tweets.append(tweet._json)
+	
+	# return jsonify({'locations': locations})
+	return json.dumps(j_tweets)
+
+	# print(tweet.get('user', {}).get('location', {}))
         # csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')]) 
  
+#https://api.twitter.com/1.1/search/tweets.json?q=%23womenintech
+
 # location = API.search(q,) 
 # return r.json()["location"] 
 # https://api.twitter.com/1.1/search/tweets.json?q=%23womenintech&src=typd 
