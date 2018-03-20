@@ -1,6 +1,5 @@
 import json
 import sys
-from pygeocoder import Geocoder
 from geopy.geocoders import Nominatim
 from flask.json import jsonify
 from flask import Flask

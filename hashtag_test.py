@@ -24,21 +24,19 @@ def collect_tweets(keyword, stop_num, twitter):
     show_content(tweets)
 
 def get_hashtags(api): 
-	locations = []
+	# locations = []
 	j_tweets = []
 	all_tweets = tweepy.Cursor(api.search,q="#womenintech",lang="en").items(100)
 	for tweet in all_tweets:
-		content = tweet.created_at
-		text = tweet.text
-		user = tweet.user.screen_name
-		user = tweet.user.location
-		user = tweet.user.time_zone
-		location = tweet.location if hasattr(tweet, 'location') else "Undefined location"
-		place = tweet.place if hasattr(tweet, 'place') else "Undefined place"
-		place = getattr(tweet, 'place', "Undefined place")
-
-
-		locations.append(str(user)) 
+		# content = tweet.created_at
+		# text = tweet.text
+		# user = tweet.user.screen_name
+		# user = tweet.user.location
+		# user = tweet.user.time_zone
+		# location = tweet.location if hasattr(tweet, 'location') else "Undefined location"
+		# place = tweet.place if hasattr(tweet, 'place') else "Undefined place"
+		# place = getattr(tweet, 'place', "Undefined place")
+		# locations.append(str(user)) 
 		# return place
 		j_tweets.append(tweet._json)
 	
