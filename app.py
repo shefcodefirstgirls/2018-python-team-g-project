@@ -4,6 +4,7 @@ from flask import Flask, render_template, request
 from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
 from flask.json import jsonify
 from hashtag_test import authenticate, get_hashtags
+import os
 
 # import os #delete before deployment
 # import config #delete before deployment, but need it for local testing
