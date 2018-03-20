@@ -30,8 +30,9 @@ def shorten_json(json_file):
 def geolocate_tweet(json_file):
 	geolocator = Nominatim()
 	short_json = json_file
+	result = []
 	for i, item in enumerate(short_json):
-		tweet_coordinates = item['coordinates']
+		# tweet_coordinates = item['coordinates']
 		tweet_location = item['location']
 		tweet_timezone = item['time_zone']
 		# if tweet_coordinates != None:
@@ -50,9 +51,11 @@ def geolocate_tweet(json_file):
 				item['address'] = location.address
 				item['lng'] = location.longitude
 				item['lat'] = location.latitude
+				result.append(item)
+				continue
 			# print(location.address)
 			# print(location.latitude, location.longitude)
-		elif tweet_timezone != None:
+		if tweet_timezone != None:
 			# print("timezone")
 			# print(tweet_timezone)
 			location = geolocator.geocode(tweet_timezone, timeout = 1)
@@ -61,12 +64,11 @@ def geolocate_tweet(json_file):
 				item['address'] = location.address
 				item['lng'] = location.longitude
 				item['lat'] = location.latitude
+				result.append(item)
+				continue
 			# print(location.address)
 			# print(location.latitude, location.longitude)
-		else:
-			del item
-			print("no location")
-	return short_json
+	return result
 
 @app.route("/api/tweets")
 def get_all_markers(json_file):

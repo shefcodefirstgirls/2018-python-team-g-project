@@ -21,7 +21,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 // mymap.addControl(searchControl);
 
-var marker = L.marker([51.5, -0.09]).addTo(mymap);
+// var marker = L.marker([51.5, -0.09]).addTo(mymap);
 
 // var circle = L.circle([51.508, -0.11], {
 //     color: 'red',
@@ -32,24 +32,46 @@ var marker = L.marker([51.5, -0.09]).addTo(mymap);
 
 
 // https://asmaloney.com/2015/06/code/clustering-markers-on-leaflet-maps/
-var markerClusters = L.markerClusterGroup();
 
-for ( var i = 0; i < markers.length; ++i )
-{
-  var popup = markers[i].screen_name +
-              '<br/>' + markers[i].location +
-              '<br/><b>Altitude:</b> ' + markers[i].text +
-              '<br/><b>Timezone:</b> ' + markers[i].time_zone;
+$.getJSON( "hashtags", function( data ) {
+	var markers = data.markers
+	var markerClusters = L.markerClusterGroup();
 
-  var m = L.marker( [markers[i].lat, markers[i].lng])
-                  .bindPopup( popup );
+	for ( var i = 0; i < markers.length; ++i )
+	{
+	  var popup = markers[i].screen_name +
+	              '<br/>' + markers[i].location +
+	              '<br/><b>Altitude:</b> ' + markers[i].text +
+	              '<br/><b>Timezone:</b> ' + markers[i].time_zone;
 
-  markerClusters.addLayer( m );
-}
+	  var m = L.marker( [markers[i].lat, markers[i].lng])
+	                  .bindPopup( popup );
 
-mymap.addLayer( markerClusters );
+	  markerClusters.addLayer( m );
+	}
 
-var marker = L.marker([-51.5, 10.09]).addTo(mymap);
+	mymap.addLayer( markerClusters );
+});
+
+
+// var markerClusters = L.markerClusterGroup();
+
+// for ( var i = 0; i < markers.length; ++i )
+// {
+//   var popup = markers[i].screen_name +
+//               '<br/>' + markers[i].location +
+//               '<br/><b>Altitude:</b> ' + markers[i].text +
+//               '<br/><b>Timezone:</b> ' + markers[i].time_zone;
+
+//   var m = L.marker( [markers[i].lat, markers[i].lng])
+//                   .bindPopup( popup );
+
+//   markerClusters.addLayer( m );
+// }
+
+// mymap.addLayer( markerClusters );
+
+// var marker = L.marker([-41.5, 10.09]).addTo(mymap);
 
 
 
