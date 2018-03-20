@@ -1,0 +1,3135 @@
+[
+  {
+    "created_at": "Mon Mar 19 16:27:51 +0000 2018",
+    "id": 975770840238317569,
+    "id_str": "975770840238317569",
+    "text": "RT @IainIsCreative: Something that may be of interest for @Sparkfun @Hacksterio @Adafruit @RealSexyCyborg @Arduino @RaspberryPi.\n\nhttps://t\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "IainIsCreative",
+          "name": "Iain currently abhors the BBC.",
+          "id": 32270541,
+          "id_str": "32270541",
+          "indices": [
+            3,
+            18
+          ]
+        },
+        {
+          "screen_name": "sparkfun",
+          "name": "SparkFun Electronics",
+          "id": 17877351,
+          "id_str": "17877351",
+          "indices": [
+            58,
+            67
+          ]
+        },
+        {
+          "screen_name": "Hacksterio",
+          "name": "Hackster.io",
+          "id": 1473686120,
+          "id_str": "1473686120",
+          "indices": [
+            68,
+            79
+          ]
+        },
+        {
+          "screen_name": "adafruit",
+          "name": "adafruit industries",
+          "id": 20731304,
+          "id_str": "20731304",
+          "indices": [
+            80,
+            89
+          ]
+        },
+        {
+          "screen_name": "RealSexyCyborg",
+          "name": "Naomi Wu",
+          "id": 3562121415,
+          "id_str": "3562121415",
+          "indices": [
+            90,
+            105
+          ]
+        },
+        {
+          "screen_name": "arduino",
+          "name": "Arduino",
+          "id": 266400754,
+          "id_str": "266400754",
+          "indices": [
+            106,
+            114
+          ]
+        },
+        {
+          "screen_name": "raspberrypi",
+          "name": "Hannah Keating",
+          "id": 64480926,
+          "id_str": "64480926",
+          "indices": [
+            115,
+            127
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter Web Client",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 17877351,
+      "id_str": "17877351",
+      "name": "SparkFun Electronics",
+      "screen_name": "sparkfun",
+      "location": "Niwot, Colo.",
+      "description": "Open-source technology, resources, DIY electronics and more.\n\nStart something.",
+      "url": "http://t.co/0KX8xfOGof",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/0KX8xfOGof",
+              "expanded_url": "http://www.sparkfun.com",
+              "display_url": "sparkfun.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 119373,
+      "friends_count": 352,
+      "listed_count": 2521,
+      "created_at": "Thu Dec 04 20:18:15 +0000 2008",
+      "favourites_count": 1394,
+      "utc_offset": -21600,
+      "time_zone": "Mountain Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 7729,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F03528",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/691158238/a077a7d1d96ee4990801981a659d9e55.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/691158238/a077a7d1d96ee4990801981a659d9e55.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/823909015012769792/qJrILRQh_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/823909015012769792/qJrILRQh_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/17877351/1485270159",
+      "profile_link_color": "EE3524",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "F2F2EE",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Mar 19 15:26:59 +0000 2018",
+      "id": 975755521738395648,
+      "id_str": "975755521738395648",
+      "text": "Something that may be of interest for @Sparkfun @Hacksterio @Adafruit @RealSexyCyborg @Arduino @RaspberryPi.\u2026 https://t.co/2xQUiUjtCF",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "sparkfun",
+            "name": "SparkFun Electronics",
+            "id": 17877351,
+            "id_str": "17877351",
+            "indices": [
+              38,
+              47
+            ]
+          },
+          {
+            "screen_name": "Hacksterio",
+            "name": "Hackster.io",
+            "id": 1473686120,
+            "id_str": "1473686120",
+            "indices": [
+              48,
+              59
+            ]
+          },
+          {
+            "screen_name": "adafruit",
+            "name": "adafruit industries",
+            "id": 20731304,
+            "id_str": "20731304",
+            "indices": [
+              60,
+              69
+            ]
+          },
+          {
+            "screen_name": "RealSexyCyborg",
+            "name": "Naomi Wu",
+            "id": 3562121415,
+            "id_str": "3562121415",
+            "indices": [
+              70,
+              85
+            ]
+          },
+          {
+            "screen_name": "arduino",
+            "name": "Arduino",
+            "id": 266400754,
+            "id_str": "266400754",
+            "indices": [
+              86,
+              94
+            ]
+          },
+          {
+            "screen_name": "raspberrypi",
+            "name": "Hannah Keating",
+            "id": 64480926,
+            "id_str": "64480926",
+            "indices": [
+              95,
+              107
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/2xQUiUjtCF",
+            "expanded_url": "https://twitter.com/i/web/status/975755521738395648",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              110,
+              133
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter for iPhone",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 32270541,
+        "id_str": "32270541",
+        "name": "Iain currently abhors the BBC.",
+        "screen_name": "IainIsCreative",
+        "location": "",
+        "description": "I make all sorts of digital creations \u2014 code, art, robots. Support me on Patreon! https://t.co/19DUEVJbgt",
+        "url": "https://t.co/nUKpSX4Lhb",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/nUKpSX4Lhb",
+                "expanded_url": "http://iain.is",
+                "display_url": "iain.is",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/19DUEVJbgt",
+                "expanded_url": "http://patreon.com/IainIsCreative",
+                "display_url": "patreon.com/IainIsCreative",
+                "indices": [
+                  82,
+                  105
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1195,
+        "friends_count": 1124,
+        "listed_count": 109,
+        "created_at": "Fri Apr 17 02:52:36 +0000 2009",
+        "favourites_count": 37020,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 47809,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F4E4BE",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/707273935/0e09e446a54c4c8db7aea91e6b69d25a.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/707273935/0e09e446a54c4c8db7aea91e6b69d25a.jpeg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/874955840024924160/Zsm1lZY6_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/874955840024924160/Zsm1lZY6_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/32270541/1497440750",
+        "profile_link_color": "1A7976",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFF5E5",
+        "profile_text_color": "1C1C1C",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 3,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:26:24 +0000 2018",
+    "id": 975770472125288448,
+    "id_str": "975770472125288448",
+    "text": "RT @anankemag: Check out @OxGadgets amazing list of #womenintech from #Pakistan @forWomanity @Empower_Women @GlobalGirlPower @womenintech h\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "womenintech",
+          "indices": [
+            52,
+            64
+          ]
+        },
+        {
+          "text": "Pakistan",
+          "indices": [
+            70,
+            79
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "anankemag",
+          "name": "Ananke",
+          "id": 2906759304,
+          "id_str": "2906759304",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "OxGadgets",
+          "name": "OxGadgets",
+          "id": 1030538106,
+          "id_str": "1030538106",
+          "indices": [
+            25,
+            35
+          ]
+        },
+        {
+          "screen_name": "forWomanity",
+          "name": "Womanity.org",
+          "id": 280386299,
+          "id_str": "280386299",
+          "indices": [
+            80,
+            92
+          ]
+        },
+        {
+          "screen_name": "Empower_Women",
+          "name": "Empower Women",
+          "id": 1563482935,
+          "id_str": "1563482935",
+          "indices": [
+            93,
+            107
+          ]
+        },
+        {
+          "screen_name": "GlobalGirlPower",
+          "name": "Global Girl Power",
+          "id": 871055617,
+          "id_str": "871055617",
+          "indices": [
+            108,
+            124
+          ]
+        },
+        {
+          "screen_name": "womenintech",
+          "name": "Women in Technology",
+          "id": 22756947,
+          "id_str": "22756947",
+          "indices": [
+            125,
+            137
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter for iPhone",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 18315807,
+      "id_str": "18315807",
+      "name": "smacula",
+      "screen_name": "smacula",
+      "location": "Oxford, UK",
+      "description": "From Twitter Unicorn to #TwitterYoda... trying to be good via @PakTherapy and get free stuff via @OxGadgets. Also, I run @PeopleOfUK.",
+      "url": "https://t.co/kHt2CjSgOI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/kHt2CjSgOI",
+              "expanded_url": "http://www.oxgadgets.com",
+              "display_url": "oxgadgets.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4376,
+      "friends_count": 433,
+      "listed_count": 241,
+      "created_at": "Mon Dec 22 20:26:49 +0000 2008",
+      "favourites_count": 20,
+      "utc_offset": 0,
+      "time_zone": "London",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 257926,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/839865717881257984/jfE6HZzD_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/839865717881257984/jfE6HZzD_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/18315807/1484005035",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Mar 19 11:42:36 +0000 2018",
+      "id": 975699054427504640,
+      "id_str": "975699054427504640",
+      "text": "Check out @OxGadgets amazing list of #womenintech from #Pakistan @forWomanity @Empower_Women @GlobalGirlPower\u2026 https://t.co/g88RywCEuq",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "womenintech",
+            "indices": [
+              37,
+              49
+            ]
+          },
+          {
+            "text": "Pakistan",
+            "indices": [
+              55,
+              64
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "OxGadgets",
+            "name": "OxGadgets",
+            "id": 1030538106,
+            "id_str": "1030538106",
+            "indices": [
+              10,
+              20
+            ]
+          },
+          {
+            "screen_name": "forWomanity",
+            "name": "Womanity.org",
+            "id": 280386299,
+            "id_str": "280386299",
+            "indices": [
+              65,
+              77
+            ]
+          },
+          {
+            "screen_name": "Empower_Women",
+            "name": "Empower Women",
+            "id": 1563482935,
+            "id_str": "1563482935",
+            "indices": [
+              78,
+              92
+            ]
+          },
+          {
+            "screen_name": "GlobalGirlPower",
+            "name": "Global Girl Power",
+            "id": 871055617,
+            "id_str": "871055617",
+            "indices": [
+              93,
+              109
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/g88RywCEuq",
+            "expanded_url": "https://twitter.com/i/web/status/975699054427504640",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              111,
+              134
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter for iPhone",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2906759304,
+        "id_str": "2906759304",
+        "name": "Ananke",
+        "screen_name": "anankemag",
+        "location": "Global",
+        "description": "Online platform breaking digital barriers to empower women. Engage | Educate | Empower",
+        "url": "https://t.co/vrypQi57GU",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/vrypQi57GU",
+                "expanded_url": "http://www.anankemag.com",
+                "display_url": "anankemag.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 473,
+        "friends_count": 230,
+        "listed_count": 61,
+        "created_at": "Sat Nov 22 07:13:15 +0000 2014",
+        "favourites_count": 2422,
+        "utc_offset": 14400,
+        "time_zone": "Muscat",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3315,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/724586383067754496/hphJrC1v.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/724586383067754496/hphJrC1v.jpg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/724587931739013120/mkk4fayI_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/724587931739013120/mkk4fayI_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2906759304/1511427425",
+        "profile_link_color": "FF691F",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 975652602598830080,
+      "quoted_status_id_str": "975652602598830080",
+      "quoted_status": {
+        "created_at": "Mon Mar 19 08:38:01 +0000 2018",
+        "id": 975652602598830080,
+        "id_str": "975652602598830080",
+        "text": "Good morning! Good day to highlight some awesome Pakistani Women in Tech that were featured on @OxGadgets:\u2026 https://t.co/LVStN3J1OR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "OxGadgets",
+              "name": "OxGadgets",
+              "id": 1030538106,
+              "id_str": "1030538106",
+              "indices": [
+                95,
+                105
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/LVStN3J1OR",
+              "expanded_url": "https://twitter.com/i/web/status/975652602598830080",
+              "display_url": "twitter.com/i/web/status/9\u2026",
+              "indices": [
+                108,
+                131
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "TweetDeck",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 18315807,
+          "id_str": "18315807",
+          "name": "smacula",
+          "screen_name": "smacula",
+          "location": "Oxford, UK",
+          "description": "From Twitter Unicorn to #TwitterYoda... trying to be good via @PakTherapy and get free stuff via @OxGadgets. Also, I run @PeopleOfUK.",
+          "url": "https://t.co/kHt2CjSgOI",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/kHt2CjSgOI",
+                  "expanded_url": "http://www.oxgadgets.com",
+                  "display_url": "oxgadgets.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 4376,
+          "friends_count": 433,
+          "listed_count": 241,
+          "created_at": "Mon Dec 22 20:26:49 +0000 2008",
+          "favourites_count": 20,
+          "utc_offset": 0,
+          "time_zone": "London",
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 257926,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "131516",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/839865717881257984/jfE6HZzD_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/839865717881257984/jfE6HZzD_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/18315807/1484005035",
+          "profile_link_color": "009999",
+          "profile_sidebar_border_color": "EEEEEE",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 8,
+        "favorite_count": 10,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 1,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 975652602598830080,
+    "quoted_status_id_str": "975652602598830080",
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:26:12 +0000 2018",
+    "id": 975770424284823552,
+    "id_str": "975770424284823552",
+    "text": "RT @CathyHackl: Such an honor to share the spotlight with these amazing women! Thanks @ARealityEvent. #wivr #womenintech #VR #AR #XR #Immer\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "wivr",
+          "indices": [
+            102,
+            107
+          ]
+        },
+        {
+          "text": "womenintech",
+          "indices": [
+            108,
+            120
+          ]
+        },
+        {
+          "text": "VR",
+          "indices": [
+            121,
+            124
+          ]
+        },
+        {
+          "text": "AR",
+          "indices": [
+            125,
+            128
+          ]
+        },
+        {
+          "text": "XR",
+          "indices": [
+            129,
+            132
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "CathyHackl",
+          "name": "Cathy Hackl #VR #AR",
+          "id": 719472337,
+          "id_str": "719472337",
+          "indices": [
+            3,
+            14
+          ]
+        },
+        {
+          "screen_name": "ARealityEvent",
+          "name": "AWE",
+          "id": 106035107,
+          "id_str": "106035107",
+          "indices": [
+            86,
+            100
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter for Android",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 438124400,
+      "id_str": "438124400",
+      "name": "vinod joshi",
+      "screen_name": "vinodjoshi10",
+      "location": "",
+      "description": "\u0939\u093f\u0928\u094d\u0926\u0941\u0924\u094d\u0935 \u0938\u0928\u093e\u0924\u0928 \u0927\u0930\u094d\u092e \u0939\u0940 \u092e\u0947\u0930\u093e \u0917\u094c\u0930\u0935 \u0939\u0948\n\u092e\u0939\u093e\u0915\u093e\u0932 \u092d\u0915\u094d\u0924 @\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0935\u093e\u0926\u0940\n\u0939\u093f\u0928\u094d\u0926\u0941\u0924\u094d\u0935 \u0939\u0940 \u0939\u093f\u0902\u0926\u0941\u0938\u094d\u0924\u093e\u0928 \u0915\u0940 \u0915\u0932\u094d\u092a\u0928\u093e \u0939\u0948",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 949,
+      "friends_count": 1808,
+      "listed_count": 30,
+      "created_at": "Fri Dec 16 06:24:54 +0000 2011",
+      "favourites_count": 49907,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 27499,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/913737222943207424/Ns9bYYs7_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/913737222943207424/Ns9bYYs7_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Mar 16 21:03:36 +0000 2018",
+      "id": 974753070939766784,
+      "id_str": "974753070939766784",
+      "text": "Such an honor to share the spotlight with these amazing women! Thanks @ARealityEvent. #wivr #womenintech #VR #AR\u2026 https://t.co/krnPDqiPpS",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "wivr",
+            "indices": [
+              86,
+              91
+            ]
+          },
+          {
+            "text": "womenintech",
+            "indices": [
+              92,
+              104
+            ]
+          },
+          {
+            "text": "VR",
+            "indices": [
+              105,
+              108
+            ]
+          },
+          {
+            "text": "AR",
+            "indices": [
+              109,
+              112
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ARealityEvent",
+            "name": "AWE",
+            "id": 106035107,
+            "id_str": "106035107",
+            "indices": [
+              70,
+              84
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/krnPDqiPpS",
+            "expanded_url": "https://twitter.com/i/web/status/974753070939766784",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              114,
+              137
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter for iPhone",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 719472337,
+        "id_str": "719472337",
+        "name": "Cathy Hackl #VR #AR",
+        "screen_name": "CathyHackl",
+        "location": "Atlanta, GA",
+        "description": "#AugmentedReality #Marketing Futurist. #VR #AR Speaker & Influencer. #Atlanta's my #tech hub. Interested in #eSports #Martech. Work 4 @htcvive - views my own",
+        "url": "https://t.co/K3Kse4S5q1",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/K3Kse4S5q1",
+                "expanded_url": "http://linkedin.com/in/cathyhackl",
+                "display_url": "linkedin.com/in/cathyhackl",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 30972,
+        "friends_count": 20032,
+        "listed_count": 2320,
+        "created_at": "Fri Jul 27 05:05:16 +0000 2012",
+        "favourites_count": 14094,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 23679,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/972514623936110592/ggF8tifA_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/972514623936110592/ggF8tifA_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/719472337/1520127214",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "00c26afc77ee7aaa",
+        "url": "https://api.twitter.com/1.1/geo/id/00c26afc77ee7aaa.json",
+        "place_type": "city",
+        "name": "Brookhaven",
+        "full_name": "Brookhaven, GA",
+        "country_code": "US",
+        "country": "United States",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.348581,
+                33.825123
+              ],
+              [
+                -84.28156,
+                33.825123
+              ],
+              [
+                -84.28156,
+                33.923964
+              ],
+              [
+                -84.348581,
+                33.923964
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 974644936661524480,
+      "quoted_status_id_str": "974644936661524480",
+      "quoted_status": {
+        "created_at": "Fri Mar 16 13:53:55 +0000 2018",
+        "id": 974644936661524480,
+        "id_str": "974644936661524480",
+        "text": "Celebrating 8 Women Organizers & Influencers in #AugmentedReality & #VirtualReality on the #AWE2018 blog!\u2026 https://t.co/bbzK1mCzdh",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "AugmentedReality",
+              "indices": [
+                52,
+                69
+              ]
+            },
+            {
+              "text": "VirtualReality",
+              "indices": [
+                76,
+                91
+              ]
+            },
+            {
+              "text": "AWE2018",
+              "indices": [
+                99,
+                107
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/bbzK1mCzdh",
+              "expanded_url": "https://twitter.com/i/web/status/974644936661524480",
+              "display_url": "twitter.com/i/web/status/9\u2026",
+              "indices": [
+                115,
+                138
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "Buffer",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 106035107,
+          "id_str": "106035107",
+          "name": "AWE",
+          "screen_name": "ARealityEvent",
+          "location": "San Francisco, CA",
+          "description": "AWE (Augmented World Expo) is the World\u2019s #1 AR+VR conference. Early bird tickets for AWE USA May 30-June 1, 2018 are on sale now! #AWE2018 #AR #VR",
+          "url": "https://t.co/CZ3yh9wRwU",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/CZ3yh9wRwU",
+                  "expanded_url": "http://www.augmentedworldexpo.com",
+                  "display_url": "augmentedworldexpo.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 14331,
+          "friends_count": 3967,
+          "listed_count": 736,
+          "created_at": "Mon Jan 18 08:31:08 +0000 2010",
+          "favourites_count": 4293,
+          "utc_offset": -14400,
+          "time_zone": "Eastern Time (US & Canada)",
+          "geo_enabled": true,
+          "verified": true,
+          "statuses_count": 12255,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "D4300C",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/593332621905498113/5DjwCzeZ.jpg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/593332621905498113/5DjwCzeZ.jpg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/829368263083646976/SWyXAO9y_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/829368263083646976/SWyXAO9y_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/106035107/1519699621",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "C90808",
+          "profile_sidebar_fill_color": "F0F0F0",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 61,
+        "favorite_count": 126,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 2,
+      "favorite_count": 17,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 974644936661524480,
+    "quoted_status_id_str": "974644936661524480",
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:25:09 +0000 2018",
+    "id": 975770160337444870,
+    "id_str": "975770160337444870",
+    "text": "Davis Wright Tremaine held its second WiN Network event of 2018 in DC last Wednesday. Since our DC launch in early\u2026 https://t.co/m1oBS3toNO",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/m1oBS3toNO",
+          "expanded_url": "https://twitter.com/i/web/status/975770160337444870",
+          "display_url": "twitter.com/i/web/status/9\u2026",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Hootsuite",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 40945270,
+      "id_str": "40945270",
+      "name": "DavisWrightTremaine",
+      "screen_name": "DWTLaw",
+      "location": "U.S. and China",
+      "description": "Davis Wright Tremaine, a full-service law firm with nine offices throughout the U.S. and in Shanghai, China",
+      "url": "http://t.co/jbXezjwzcC",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/jbXezjwzcC",
+              "expanded_url": "http://www.dwt.com",
+              "display_url": "dwt.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 3212,
+      "friends_count": 276,
+      "listed_count": 183,
+      "created_at": "Mon May 18 19:24:11 +0000 2009",
+      "favourites_count": 436,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 1536,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EBECED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000086248364/2cdee4c612249d0760868ec791caefa4.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000086248364/2cdee4c612249d0760868ec791caefa4.jpeg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/950817521166270464/k6ue1Wjr_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/950817521166270464/k6ue1Wjr_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/40945270/1515458473",
+      "profile_link_color": "73B3B9",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F0F0F0",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:24:53 +0000 2018",
+    "id": 975770092620468225,
+    "id_str": "975770092620468225",
+    "text": "RT @Zabala_Li: Looking forward to the @WomenTechmakers Conference in Zurich! See you there @cecblum @JoHe0301 @womenplusplus :) Who else is\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Zabala_Li",
+          "name": "Lidia Zabala",
+          "id": 2806891966,
+          "id_str": "2806891966",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "WomenTechmakers",
+          "name": "Women Techmakers",
+          "id": 2362618909,
+          "id_str": "2362618909",
+          "indices": [
+            38,
+            54
+          ]
+        },
+        {
+          "screen_name": "cecblum",
+          "name": "Christy Blum",
+          "id": 465670221,
+          "id_str": "465670221",
+          "indices": [
+            91,
+            99
+          ]
+        },
+        {
+          "screen_name": "JoHe0301",
+          "name": "Johanna",
+          "id": 22127188,
+          "id_str": "22127188",
+          "indices": [
+            100,
+            109
+          ]
+        },
+        {
+          "screen_name": "womenplusplus",
+          "name": "women++",
+          "id": 748194882787880960,
+          "id_str": "748194882787880960",
+          "indices": [
+            110,
+            124
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "rt_bot387",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 535783927,
+      "id_str": "535783927",
+      "name": "Tsundukani Makhubela",
+      "screen_name": "Tsundu_Mak",
+      "location": "South Africa",
+      "description": "Founder & CEO of @MakhubelaCorp | If your dreams don't scare you, they're not big enough... Introvert, a bit eccentric \ud83d\ude44, AI enthusiast & I dream in Python!",
+      "url": "https://t.co/EXkVGx9ugc",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/EXkVGx9ugc",
+              "expanded_url": "https://medium.com/@Tsundu_Mak",
+              "display_url": "medium.com/@Tsundu_Mak",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1779,
+      "friends_count": 17,
+      "listed_count": 62,
+      "created_at": "Sat Mar 24 22:49:56 +0000 2012",
+      "favourites_count": 7335,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 67196,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "BADFCD",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/875249696146640899/HsYe2n-A_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/875249696146640899/HsYe2n-A_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/535783927/1508827578",
+      "profile_link_color": "020003",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFF7CC",
+      "profile_text_color": "0C3E53",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Mar 18 15:06:36 +0000 2018",
+      "id": 975388003727233024,
+      "id_str": "975388003727233024",
+      "text": "Looking forward to the @WomenTechmakers Conference in Zurich! See you there @cecblum @JoHe0301 @womenplusplus :) Wh\u2026 https://t.co/1ZUtYRIGzP",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "WomenTechmakers",
+            "name": "Women Techmakers",
+            "id": 2362618909,
+            "id_str": "2362618909",
+            "indices": [
+              23,
+              39
+            ]
+          },
+          {
+            "screen_name": "cecblum",
+            "name": "Christy Blum",
+            "id": 465670221,
+            "id_str": "465670221",
+            "indices": [
+              76,
+              84
+            ]
+          },
+          {
+            "screen_name": "JoHe0301",
+            "name": "Johanna",
+            "id": 22127188,
+            "id_str": "22127188",
+            "indices": [
+              85,
+              94
+            ]
+          },
+          {
+            "screen_name": "womenplusplus",
+            "name": "women++",
+            "id": 748194882787880960,
+            "id_str": "748194882787880960",
+            "indices": [
+              95,
+              109
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/1ZUtYRIGzP",
+            "expanded_url": "https://twitter.com/i/web/status/975388003727233024",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter Web Client",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2806891966,
+        "id_str": "2806891966",
+        "name": "Lidia Zabala",
+        "screen_name": "Zabala_Li",
+        "location": "Zurich, Switzerland",
+        "description": "Passionate about #languages, #digital #marketing & #yoga| Now learning Mandarin #Chinese | @wdswitzerland | #AIESECer https://t.co/VilFltBxqk",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/VilFltBxqk",
+                "expanded_url": "https://www.linkedin.com/in/lidiazabala",
+                "display_url": "linkedin.com/in/lidiazabala",
+                "indices": [
+                  118,
+                  141
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 539,
+        "friends_count": 1014,
+        "listed_count": 125,
+        "created_at": "Sun Oct 05 06:07:46 +0000 2014",
+        "favourites_count": 410,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 906,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/518649431088848896/R-uMnEYy_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/518649431088848896/R-uMnEYy_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2806891966/1470902604",
+        "profile_link_color": "89C9FA",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:23:51 +0000 2018",
+    "id": 975769831231381504,
+    "id_str": "975769831231381504",
+    "text": "RT @MfgStories: Design & Manufacturing are Shaping the Future via @SME_MFG @AOSmithHotWater #HumansOfMfg #Manufacturing #Careers #WomenInTe\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "HumansOfMfg",
+          "indices": [
+            96,
+            108
+          ]
+        },
+        {
+          "text": "Manufacturing",
+          "indices": [
+            109,
+            123
+          ]
+        },
+        {
+          "text": "Careers",
+          "indices": [
+            124,
+            132
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "MfgStories",
+          "name": "ManufacturingStories",
+          "id": 591017088,
+          "id_str": "591017088",
+          "indices": [
+            3,
+            14
+          ]
+        },
+        {
+          "screen_name": "SME_MFG",
+          "name": "SME",
+          "id": 20786352,
+          "id_str": "20786352",
+          "indices": [
+            70,
+            78
+          ]
+        },
+        {
+          "screen_name": "AOSmithHotWater",
+          "name": "A. O. Smith",
+          "id": 50405635,
+          "id_str": "50405635",
+          "indices": [
+            79,
+            95
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter for Android",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 229102888,
+      "id_str": "229102888",
+      "name": "N K Shyam",
+      "screen_name": "nishant_ketu",
+      "location": "India",
+      "description": "Being simple is the way of life.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 386,
+      "friends_count": 448,
+      "listed_count": 14,
+      "created_at": "Tue Dec 21 14:41:58 +0000 2010",
+      "favourites_count": 677,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1419,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/769464973177212928/yV7r2CNA_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/769464973177212928/yV7r2CNA_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Mar 18 19:03:06 +0000 2018",
+      "id": 975447522129907712,
+      "id_str": "975447522129907712",
+      "text": "Design & Manufacturing are Shaping the Future via @SME_MFG @AOSmithHotWater #HumansOfMfg #Manufacturing #Careers\u2026 https://t.co/i7hTk8gVwX",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "HumansOfMfg",
+            "indices": [
+              80,
+              92
+            ]
+          },
+          {
+            "text": "Manufacturing",
+            "indices": [
+              93,
+              107
+            ]
+          },
+          {
+            "text": "Careers",
+            "indices": [
+              108,
+              116
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "SME_MFG",
+            "name": "SME",
+            "id": 20786352,
+            "id_str": "20786352",
+            "indices": [
+              54,
+              62
+            ]
+          },
+          {
+            "screen_name": "AOSmithHotWater",
+            "name": "A. O. Smith",
+            "id": 50405635,
+            "id_str": "50405635",
+            "indices": [
+              63,
+              79
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/i7hTk8gVwX",
+            "expanded_url": "https://twitter.com/i/web/status/975447522129907712",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              118,
+              141
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Buffer",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 591017088,
+        "id_str": "591017088",
+        "name": "ManufacturingStories",
+        "screen_name": "MfgStories",
+        "location": "Phase65, Inc., Dublin, NH USA",
+        "description": "ManufacturingStories\u00ae \nPromoting #Manufacturing & #STEM #Education to students, families, communities, educators & government - RT's not endorsements - No DM's",
+        "url": "https://t.co/hM214QknGd",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/hM214QknGd",
+                "expanded_url": "http://ManufacturingStories.com",
+                "display_url": "ManufacturingStories.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 21222,
+        "friends_count": 20236,
+        "listed_count": 5168,
+        "created_at": "Sat May 26 13:52:08 +0000 2012",
+        "favourites_count": 4261,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 96575,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/701147719730126853/km1sBddV.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/701147719730126853/km1sBddV.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/875695579669516288/v5ecS-m4_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/875695579669516288/v5ecS-m4_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/591017088/1502650819",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:23:46 +0000 2018",
+    "id": 975769809085521920,
+    "id_str": "975769809085521920",
+    "text": "Awesome! Ada students @MarieJ_ADA & @chayann_ada get girls into coding with @CodeHidden and we couldn't be prouder.\u2026 https://t.co/RQhDLWuXyX",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "MarieJ_ADA",
+          "name": "Marie Jubil\u00e9e (MJ)",
+          "id": 785829521710735364,
+          "id_str": "785829521710735364",
+          "indices": [
+            22,
+            33
+          ]
+        },
+        {
+          "screen_name": "chayann_ada",
+          "name": "Chayann Bradford",
+          "id": 779327094237065216,
+          "id_str": "779327094237065216",
+          "indices": [
+            40,
+            52
+          ]
+        },
+        {
+          "screen_name": "CodeHidden",
+          "name": "Hidden Code",
+          "id": 839400781530935296,
+          "id_str": "839400781530935296",
+          "indices": [
+            80,
+            91
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/RQhDLWuXyX",
+          "expanded_url": "https://twitter.com/i/web/status/975769809085521920",
+          "display_url": "twitter.com/i/web/status/9\u2026",
+          "indices": [
+            121,
+            144
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter Web Client",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2396113268,
+      "id_str": "2396113268",
+      "name": "Ada. National College for Digital Skills",
+      "screen_name": "AdaCollege",
+      "location": "Tottenham Hale, London",
+      "description": "#Ada, the National College for Digital Skills, is a specialist computing college, opened in 2016. Join a Community of #Digital Pioneers - Instagram:ada_college",
+      "url": "https://t.co/QeaSwMMxeQ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/QeaSwMMxeQ",
+              "expanded_url": "http://www.ada.ac.uk",
+              "display_url": "ada.ac.uk",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1668,
+      "friends_count": 632,
+      "listed_count": 59,
+      "created_at": "Tue Mar 18 12:12:35 +0000 2014",
+      "favourites_count": 1435,
+      "utc_offset": 0,
+      "time_zone": "London",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 2064,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "9266CC",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/502787668711718912/ibno0giD.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/502787668711718912/ibno0giD.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/884739475313750016/gzdfz4I6_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/884739475313750016/gzdfz4I6_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2396113268/1504176692",
+      "profile_link_color": "F68352",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 973931703818481666,
+    "quoted_status_id_str": "973931703818481666",
+    "quoted_status": {
+      "created_at": "Wed Mar 14 14:39:47 +0000 2018",
+      "id": 973931703818481666,
+      "id_str": "973931703818481666",
+      "text": "Our student Anastasia interviewed MJ and Chayann about their programme @codehidden for the @bbcschoolreport https://t.co/9bkOSkqYjl",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "CodeHidden",
+            "name": "Hidden Code",
+            "id": 839400781530935296,
+            "id_str": "839400781530935296",
+            "indices": [
+              71,
+              82
+            ]
+          },
+          {
+            "screen_name": "BBCSchoolReport",
+            "name": "BBC School Report",
+            "id": 237291919,
+            "id_str": "237291919",
+            "indices": [
+              91,
+              107
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 973931701939392512,
+            "id_str": "973931701939392512",
+            "indices": [
+              108,
+              131
+            ],
+            "media_url": "http://pbs.twimg.com/media/DYQZuQmW0AA-ZhA.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DYQZuQmW0AA-ZhA.jpg",
+            "url": "https://t.co/9bkOSkqYjl",
+            "display_url": "pic.twitter.com/9bkOSkqYjl",
+            "expanded_url": "https://twitter.com/eastlea_school/status/973931703818481666/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 383,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1600,
+                "h": 900,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 675,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 973931701939392512,
+            "id_str": "973931701939392512",
+            "indices": [
+              108,
+              131
+            ],
+            "media_url": "http://pbs.twimg.com/media/DYQZuQmW0AA-ZhA.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DYQZuQmW0AA-ZhA.jpg",
+            "url": "https://t.co/9bkOSkqYjl",
+            "display_url": "pic.twitter.com/9bkOSkqYjl",
+            "expanded_url": "https://twitter.com/eastlea_school/status/973931703818481666/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 383,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1600,
+                "h": 900,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 675,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Hootsuite",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4860130937,
+        "id_str": "4860130937",
+        "name": "Eastlea Comm. School",
+        "screen_name": "eastlea_school",
+        "location": "Canning Town, London, E16 4NP",
+        "description": "A highly aspirational inclusive secondary school serving the community of Canning Town, Newham. We are on a journey to becoming an Outstanding school.",
+        "url": "https://t.co/fZlI3drzjW",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/fZlI3drzjW",
+                "expanded_url": "http://www.eastlea.newham.sch.uk",
+                "display_url": "eastlea.newham.sch.uk",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 418,
+        "friends_count": 316,
+        "listed_count": 14,
+        "created_at": "Fri Jan 29 12:39:31 +0000 2016",
+        "favourites_count": 442,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 465,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/913763254337499137/2nRFZJp9_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/913763254337499137/2nRFZJp9_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4860130937/1506693086",
+        "profile_link_color": "DD2E44",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 10,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:23:39 +0000 2018",
+    "id": 975769780606119937,
+    "id_str": "975769780606119937",
+    "text": "RT @DDDaughters: A grooming gang illegally licensed by #TFL !!!!! #UberRape #MeToo #TimesUp #TimeIsNow #Women #PressForProgess #WomensDay #\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "TFL",
+          "indices": [
+            55,
+            59
+          ]
+        },
+        {
+          "text": "UberRape",
+          "indices": [
+            66,
+            75
+          ]
+        },
+        {
+          "text": "MeToo",
+          "indices": [
+            76,
+            82
+          ]
+        },
+        {
+          "text": "TimesUp",
+          "indices": [
+            83,
+            91
+          ]
+        },
+        {
+          "text": "TimeIsNow",
+          "indices": [
+            92,
+            102
+          ]
+        },
+        {
+          "text": "Women",
+          "indices": [
+            103,
+            109
+          ]
+        },
+        {
+          "text": "PressForProgess",
+          "indices": [
+            110,
+            126
+          ]
+        },
+        {
+          "text": "WomensDay",
+          "indices": [
+            127,
+            137
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "DDDaughters",
+          "name": "#DDD",
+          "id": 746623374835724288,
+          "id_str": "746623374835724288",
+          "indices": [
+            3,
+            15
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter for iPhone",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 229402511,
+      "id_str": "229402511",
+      "name": "Graham Burge",
+      "screen_name": "Ticofidel",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 189,
+      "friends_count": 565,
+      "listed_count": 8,
+      "created_at": "Wed Dec 22 09:22:18 +0000 2010",
+      "favourites_count": 2954,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 5290,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/871464337289904128/_XVaTbSy_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/871464337289904128/_XVaTbSy_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/229402511/1377340659",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Mar 19 11:32:11 +0000 2018",
+      "id": 975696430013845504,
+      "id_str": "975696430013845504",
+      "text": "A grooming gang illegally licensed by #TFL !!!!! #UberRape #MeToo #TimesUp #TimeIsNow #Women #PressForProgess\u2026 https://t.co/BvoyVhKOzu",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "TFL",
+            "indices": [
+              38,
+              42
+            ]
+          },
+          {
+            "text": "UberRape",
+            "indices": [
+              49,
+              58
+            ]
+          },
+          {
+            "text": "MeToo",
+            "indices": [
+              59,
+              65
+            ]
+          },
+          {
+            "text": "TimesUp",
+            "indices": [
+              66,
+              74
+            ]
+          },
+          {
+            "text": "TimeIsNow",
+            "indices": [
+              75,
+              85
+            ]
+          },
+          {
+            "text": "Women",
+            "indices": [
+              86,
+              92
+            ]
+          },
+          {
+            "text": "PressForProgess",
+            "indices": [
+              93,
+              109
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/BvoyVhKOzu",
+            "expanded_url": "https://twitter.com/i/web/status/975696430013845504",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              111,
+              134
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter for iPhone",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 746623374835724288,
+        "id_str": "746623374835724288",
+        "name": "#DDD",
+        "screen_name": "DDDaughters",
+        "location": "London, England",
+        "description": "Dads Defending Daughters: Highlighting Minicab/PH Rape In London #DDD #UberRAPE #UberFRAUD #UberCRASH #Ubered #Ubergate TFL NOT FIT FOR PURPOSE",
+        "url": "https://t.co/G48tQHoJH5",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/G48tQHoJH5",
+                "expanded_url": "http://dadsdefendingdaughters.blogspot.co.uk",
+                "display_url": "dadsdefendingdaughters.blogspot.co.uk",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2408,
+        "friends_count": 2375,
+        "listed_count": 34,
+        "created_at": "Sat Jun 25 08:37:39 +0000 2016",
+        "favourites_count": 3011,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9769,
+        "lang": "en-GB",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/750992942542839808/WCDJwVBN_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/750992942542839808/WCDJwVBN_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/746623374835724288/1469966997",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 15,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 15,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:23:32 +0000 2018",
+    "id": 975769750440759302,
+    "id_str": "975769750440759302",
+    "text": "RT @pinglinh: My latest blog post got published on @freeCodeCamp today! I never thought this day would come ever since I started blogging.\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pinglinh",
+          "name": "Linh \ud83e\udd54",
+          "id": 57475732,
+          "id_str": "57475732",
+          "indices": [
+            3,
+            12
+          ]
+        },
+        {
+          "screen_name": "freeCodeCamp",
+          "name": "freeCodeCamp.org",
+          "id": 1668100142,
+          "id_str": "1668100142",
+          "indices": [
+            51,
+            64
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter for iPhone",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 104302260,
+      "id_str": "104302260",
+      "name": "tx3",
+      "screen_name": "TobiTobeToby",
+      "location": "London, England",
+      "description": "polyglot software engineer \ud83d\udc69\ud83c\udffe\u200d\ud83d\udcbb\ud83c\uddec\ud83c\udde7",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 481,
+      "friends_count": 289,
+      "listed_count": 7,
+      "created_at": "Tue Jan 12 23:10:30 +0000 2010",
+      "favourites_count": 4984,
+      "utc_offset": 0,
+      "time_zone": "Monrovia",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 60473,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/955821288118980608/bmcQXHB0_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/955821288118980608/bmcQXHB0_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/104302260/1519657391",
+      "profile_link_color": "FF691F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Mar 19 13:43:14 +0000 2018",
+      "id": 975729410560200704,
+      "id_str": "975729410560200704",
+      "text": "My latest blog post got published on @freeCodeCamp today! I never thought this day would come ever since I started\u2026 https://t.co/vbMXhfJo68",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "freeCodeCamp",
+            "name": "freeCodeCamp.org",
+            "id": 1668100142,
+            "id_str": "1668100142",
+            "indices": [
+              37,
+              50
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/vbMXhfJo68",
+            "expanded_url": "https://twitter.com/i/web/status/975729410560200704",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter for Android",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 57475732,
+        "id_str": "57475732",
+        "name": "Linh \ud83e\udd54",
+        "screen_name": "pinglinh",
+        "location": "London, England",
+        "description": "Self-taught software engineer @asos \ud83d\udc9b \ud83d\udc69\u200d\ud83d\udcbb. Finally \ud83d\ude0a | @codefirstgirls instructor & @codebar coach \ud83d\udc69\u200d\ud83c\udfeb #coding #programming #tech #ruby #js #react #html",
+        "url": "https://t.co/si2fwovtcu",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/si2fwovtcu",
+                "expanded_url": "http://www.pinglinh.com",
+                "display_url": "pinglinh.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1396,
+        "friends_count": 1020,
+        "listed_count": 82,
+        "created_at": "Thu Jul 16 23:06:11 +0000 2009",
+        "favourites_count": 6370,
+        "utc_offset": 0,
+        "time_zone": "London",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 2467,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "B7CBBF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/454029780053004288/qB6BArjb.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/454029780053004288/qB6BArjb.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/833331504524754944/6BtnRk8v_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/833331504524754944/6BtnRk8v_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/57475732/1463438668",
+        "profile_link_color": "404969",
+        "profile_sidebar_border_color": "F5DABD",
+        "profile_sidebar_fill_color": "F4BFAD",
+        "profile_text_color": "F9A799",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 975719048175595520,
+      "quoted_status_id_str": "975719048175595520",
+      "quoted_status": {
+        "created_at": "Mon Mar 19 13:02:03 +0000 2018",
+        "id": 975719048175595520,
+        "id_str": "975719048175595520",
+        "text": "How to Create a React app from scratch using Webpack 4, by @pinglinh https://t.co/jj0Kj0YEyA",
+        "truncated": false,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "pinglinh",
+              "name": "Linh \ud83e\udd54",
+              "id": 57475732,
+              "id_str": "57475732",
+              "indices": [
+                59,
+                68
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/jj0Kj0YEyA",
+              "expanded_url": "https://fcc.im/2FU8zGe",
+              "display_url": "fcc.im/2FU8zGe",
+              "indices": [
+                69,
+                92
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "Buffer",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1668100142,
+          "id_str": "1668100142",
+          "name": "freeCodeCamp.org",
+          "screen_name": "freeCodeCamp",
+          "location": "San Francisco",
+          "description": "Join a community of millions of people learning to code together. Meet coders in your city. Get experience by coding for nonprofits. Level up your career.",
+          "url": "https://t.co/MdqpQAW3H9",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/MdqpQAW3H9",
+                  "expanded_url": "http://www.freeCodeCamp.org",
+                  "display_url": "freeCodeCamp.org",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 70811,
+          "friends_count": 122,
+          "listed_count": 1662,
+          "created_at": "Tue Aug 13 15:27:51 +0000 2013",
+          "favourites_count": 75236,
+          "utc_offset": -25200,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": true,
+          "verified": true,
+          "statuses_count": 9473,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/692531829287567360/ytP7U362_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1668100142/1423791803",
+          "profile_link_color": "006400",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 22,
+        "favorite_count": 65,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 5,
+      "favorite_count": 22,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 975719048175595520,
+    "quoted_status_id_str": "975719048175595520",
+    "retweet_count": 5,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Mar 19 16:23:27 +0000 2018",
+    "id": 975769732669476864,
+    "id_str": "975769732669476864",
+    "text": "RT @jennifercloer: I'm really looking forward to joining @ab415 and @cloudfoundry community in Boston for a special screening of @cgFilmPro\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "jennifercloer",
+          "name": "jennifercloer",
+          "id": 9720922,
+          "id_str": "9720922",
+          "indices": [
+            3,
+            17
+          ]
+        },
+        {
+          "screen_name": "ab415",
+          "name": "Abby Kearns",
+          "id": 18959885,
+          "id_str": "18959885",
+          "indices": [
+            57,
+            63
+          ]
+        },
+        {
+          "screen_name": "cloudfoundry",
+          "name": "Cloud Foundry",
+          "id": 18697326,
+          "id_str": "18697326",
+          "indices": [
+            68,
+            81
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "Twitter Web Client",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2327560616,
+      "id_str": "2327560616",
+      "name": "The New Stack",
+      "screen_name": "thenewstack",
+      "location": "Portland, Oregon",
+      "description": "All about app development & management at scale. Follow us for tech news, analysis, research, podcasts and more! #devops #kubernetes #docker #serverless #nodejs",
+      "url": "https://t.co/GAtnYGiMZT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/GAtnYGiMZT",
+              "expanded_url": "http://thenewstack.io",
+              "display_url": "thenewstack.io",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 16915,
+      "friends_count": 2622,
+      "listed_count": 1193,
+      "created_at": "Tue Feb 04 18:48:50 +0000 2014",
+      "favourites_count": 5556,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 29082,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/461139730499772419/m-n-U_By.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/461139730499772419/m-n-U_By.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/650494844536647680/kxpz8kAv_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/650494844536647680/kxpz8kAv_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2327560616/1443925069",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Mar 19 16:12:39 +0000 2018",
+      "id": 975767014210809856,
+      "id_str": "975767014210809856",
+      "text": "I'm really looking forward to joining @ab415 and @cloudfoundry community in Boston for a special screening of\u2026 https://t.co/KlKaefqCiO",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ab415",
+            "name": "Abby Kearns",
+            "id": 18959885,
+            "id_str": "18959885",
+            "indices": [
+              38,
+              44
+            ]
+          },
+          {
+            "screen_name": "cloudfoundry",
+            "name": "Cloud Foundry",
+            "id": 18697326,
+            "id_str": "18697326",
+            "indices": [
+              49,
+              62
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/KlKaefqCiO",
+            "expanded_url": "https://twitter.com/i/web/status/975767014210809856",
+            "display_url": "twitter.com/i/web/status/9\u2026",
+            "indices": [
+              111,
+              134
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "Twitter Web Client",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 9720922,
+        "id_str": "9720922",
+        "name": "jennifercloer",
+        "screen_name": "jennifercloer",
+        "location": "Portland, Oregon",
+        "description": "founder, reTHINKit; co-founder Wicked Flicks; exec producer, Chasing Grace Project. Helps tech clients redefine the future through innovation, inclusiveness.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1995,
+        "friends_count": 1823,
+        "listed_count": 124,
+        "created_at": "Fri Oct 26 21:13:13 +0000 2007",
+        "favourites_count": 938,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 4877,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881594407819952128/dA4GVO_P_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881594407819952128/dA4GVO_P_normal.jpg",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  }
+]{'created_at': 'Mon Mar 19 16:27:51 +0000 2018', 'id_str': '975770840238317569', 'text': 'RT @IainIsCreative: Something that may be of interest for @Sparkfun @Hacksterio @Adafruit @RealSexyCyborg @Arduino @RaspberryPi.\n\nhttps://t…', 'hashtags': []}
+{'created_at': 'Mon Mar 19 16:26:24 +0000 2018', 'id_str': '975770472125288448', 'text': 'RT @anankemag: Check out @OxGadgets amazing list of #womenintech from #Pakistan @forWomanity @Empower_Women @GlobalGirlPower @womenintech h…', 'hashtags': [{'text': 'womenintech', 'indices': [52, 64]}, {'text': 'Pakistan', 'indices': [70, 79]}]}
+{'created_at': 'Mon Mar 19 16:26:12 +0000 2018', 'id_str': '975770424284823552', 'text': 'RT @CathyHackl: Such an honor to share the spotlight with these amazing women! Thanks @ARealityEvent. #wivr #womenintech #VR #AR #XR #Immer…', 'hashtags': [{'text': 'wivr', 'indices': [102, 107]}, {'text': 'womenintech', 'indices': [108, 120]}, {'text': 'VR', 'indices': [121, 124]}, {'text': 'AR', 'indices': [125, 128]}, {'text': 'XR', 'indices': [129, 132]}]}
+{'created_at': 'Mon Mar 19 16:25:09 +0000 2018', 'id_str': '975770160337444870', 'text': 'Davis Wright Tremaine held its second WiN Network event of 2018 in DC last Wednesday. Since our DC launch in early… https://t.co/m1oBS3toNO', 'hashtags': []}
+{'created_at': 'Mon Mar 19 16:24:53 +0000 2018', 'id_str': '975770092620468225', 'text': 'RT @Zabala_Li: Looking forward to the @WomenTechmakers Conference in Zurich! See you there @cecblum @JoHe0301 @womenplusplus :) Who else is…', 'hashtags': []}
+{'created_at': 'Mon Mar 19 16:23:51 +0000 2018', 'id_str': '975769831231381504', 'text': 'RT @MfgStories: Design & Manufacturing are Shaping the Future via @SME_MFG @AOSmithHotWater #HumansOfMfg #Manufacturing #Careers #WomenInTe…', 'hashtags': [{'text': 'HumansOfMfg', 'indices': [96, 108]}, {'text': 'Manufacturing', 'indices': [109, 123]}, {'text': 'Careers', 'indices': [124, 132]}]}
+{'created_at': 'Mon Mar 19 16:23:46 +0000 2018', 'id_str': '975769809085521920', 'text': "Awesome! Ada students @MarieJ_ADA & @chayann_ada get girls into coding with @CodeHidden and we couldn't be prouder.… https://t.co/RQhDLWuXyX", 'hashtags': []}
+{'created_at': 'Mon Mar 19 16:23:39 +0000 2018', 'id_str': '975769780606119937', 'text': 'RT @DDDaughters: A grooming gang illegally licensed by #TFL !!!!! #UberRape #MeToo #TimesUp #TimeIsNow #Women #PressForProgess #WomensDay #…', 'hashtags': [{'text': 'TFL', 'indices': [55, 59]}, {'text': 'UberRape', 'indices': [66, 75]}, {'text': 'MeToo', 'indices': [76, 82]}, {'text': 'TimesUp', 'indices': [83, 91]}, {'text': 'TimeIsNow', 'indices': [92, 102]}, {'text': 'Women', 'indices': [103, 109]}, {'text': 'PressForProgess', 'indices': [110, 126]}, {'text': 'WomensDay', 'indices': [127, 137]}]}
+{'created_at': 'Mon Mar 19 16:23:32 +0000 2018', 'id_str': '975769750440759302', 'text': 'RT @pinglinh: My latest blog post got published on @freeCodeCamp today! I never thought this day would come ever since I started blogging.…', 'hashtags': []}
+{'created_at': 'Mon Mar 19 16:23:27 +0000 2018', 'id_str': '975769732669476864', 'text': "RT @jennifercloer: I'm really looking forward to joining @ab415 and @cloudfoundry community in Boston for a special screening of @cgFilmPro…", 'hashtags': []}
+[{'created_at': 'Mon Mar 19 16:27:51 +0000 2018', 'id_str': '975770840238317569', 'text': 'RT @IainIsCreative: Something that may be of interest for @Sparkfun @Hacksterio @Adafruit @RealSexyCyborg @Arduino @RaspberryPi.\n\nhttps://t…', 'hashtags': []}, {'created_at': 'Mon Mar 19 16:26:24 +0000 2018', 'id_str': '975770472125288448', 'text': 'RT @anankemag: Check out @OxGadgets amazing list of #womenintech from #Pakistan @forWomanity @Empower_Women @GlobalGirlPower @womenintech h…', 'hashtags': [{'text': 'womenintech', 'indices': [52, 64]}, {'text': 'Pakistan', 'indices': [70, 79]}]}, {'created_at': 'Mon Mar 19 16:26:12 +0000 2018', 'id_str': '975770424284823552', 'text': 'RT @CathyHackl: Such an honor to share the spotlight with these amazing women! Thanks @ARealityEvent. #wivr #womenintech #VR #AR #XR #Immer…', 'hashtags': [{'text': 'wivr', 'indices': [102, 107]}, {'text': 'womenintech', 'indices': [108, 120]}, {'text': 'VR', 'indices': [121, 124]}, {'text': 'AR', 'indices': [125, 128]}, {'text': 'XR', 'indices': [129, 132]}]}, {'created_at': 'Mon Mar 19 16:25:09 +0000 2018', 'id_str': '975770160337444870', 'text': 'Davis Wright Tremaine held its second WiN Network event of 2018 in DC last Wednesday. Since our DC launch in early… https://t.co/m1oBS3toNO', 'hashtags': []}, {'created_at': 'Mon Mar 19 16:24:53 +0000 2018', 'id_str': '975770092620468225', 'text': 'RT @Zabala_Li: Looking forward to the @WomenTechmakers Conference in Zurich! See you there @cecblum @JoHe0301 @womenplusplus :) Who else is…', 'hashtags': []}, {'created_at': 'Mon Mar 19 16:23:51 +0000 2018', 'id_str': '975769831231381504', 'text': 'RT @MfgStories: Design & Manufacturing are Shaping the Future via @SME_MFG @AOSmithHotWater #HumansOfMfg #Manufacturing #Careers #WomenInTe…', 'hashtags': [{'text': 'HumansOfMfg', 'indices': [96, 108]}, {'text': 'Manufacturing', 'indices': [109, 123]}, {'text': 'Careers', 'indices': [124, 132]}]}, {'created_at': 'Mon Mar 19 16:23:46 +0000 2018', 'id_str': '975769809085521920', 'text': "Awesome! Ada students @MarieJ_ADA & @chayann_ada get girls into coding with @CodeHidden and we couldn't be prouder.… https://t.co/RQhDLWuXyX", 'hashtags': []}, {'created_at': 'Mon Mar 19 16:23:39 +0000 2018', 'id_str': '975769780606119937', 'text': 'RT @DDDaughters: A grooming gang illegally licensed by #TFL !!!!! #UberRape #MeToo #TimesUp #TimeIsNow #Women #PressForProgess #WomensDay #…', 'hashtags': [{'text': 'TFL', 'indices': [55, 59]}, {'text': 'UberRape', 'indices': [66, 75]}, {'text': 'MeToo', 'indices': [76, 82]}, {'text': 'TimesUp', 'indices': [83, 91]}, {'text': 'TimeIsNow', 'indices': [92, 102]}, {'text': 'Women', 'indices': [103, 109]}, {'text': 'PressForProgess', 'indices': [110, 126]}, {'text': 'WomensDay', 'indices': [127, 137]}]}, {'created_at': 'Mon Mar 19 16:23:32 +0000 2018', 'id_str': '975769750440759302', 'text': 'RT @pinglinh: My latest blog post got published on @freeCodeCamp today! I never thought this day would come ever since I started blogging.…', 'hashtags': []}, {'created_at': 'Mon Mar 19 16:23:27 +0000 2018', 'id_str': '975769732669476864', 'text': "RT @jennifercloer: I'm really looking forward to joining @ab415 and @cloudfoundry community in Boston for a special screening of @cgFilmPro…", 'hashtags': []}]

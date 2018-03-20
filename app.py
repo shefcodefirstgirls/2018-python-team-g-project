@@ -4,6 +4,9 @@ from graphiql_request import get_profiles
 # from hashtags import get_hashtags
 import csv
 from flask import Flask, render_template, request
+from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
+from flask.json import jsonify
+
 import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
@@ -17,6 +20,9 @@ access_token_secret = os.environ["twitter_access_token_secret"]
 #     return render_template("feedback.html", form_data=data)
 
 app = Flask("teamg_app")
+
+# short_json = open("test_tweets.json")
+
 
 @app.route("/")
 def home():
@@ -36,12 +42,16 @@ def about():
     profiles = get_profiles()
     return render_template("about.html", members=profiles, enumerate=enumerate)
 
-# @app.route("/hashtags")
-# def hashtags():
-#   api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
-#   tweets= get_hashtags(api)
-#   # tweets = collect_tweets("#sheffield", 10, api)
-#   return tweets
+@app.route("/hashtags")
+def hashtags():
+	api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
+	tweets= get_hashtags(api)
+	# tweets = collect_tweets("#sheffield", 10, api)
+	short_json = shorten_json(tweets)
+	loc_json = geolocate_tweet(short_json)
+	# return short_json
+	# return loc_json #doesnt want to return a list 
+	return jsonify({"markers": [tweet for i, tweet in enumerate(loc_json)]})
 
 """
 This piece of logic checks whether you are running the app locally or on Heroku

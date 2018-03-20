@@ -20,28 +20,32 @@
     </div> -->
   </form>
 
-
-
-
-  <section>
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="{{url_for('home')}}">#womenintech</a>
-        </li>
-        <li>
-          <a href="{{url_for('home')}}">#STEM</a>
-        </li>
-        <li>
-          <a href="{{url_for('home')}}">#ShefCodeFirst</a>
-        </li>
-        <li>
-          <a href="{{url_for('home')}}">#WeAreTechWomen</a>
-        <li/>
-      </ul>
-  <section/>
-
-  <div id="mapid" style="height: 500px; width: 500px;"></div>
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="{{url_for('home')}}">#womenintech</a>
+        <!-- 'home' links for now!! -->
+      </li>
+      <li>
+        <a href="{{url_for('home')}}">#STEM</a>
+      </li>
+      <li>
+        <a href="{{url_for('home')}}">#ShefCodeFirst</a>
+      </li>
+      <li>
+        <a href="{{url_for('home')}}">#WeAreTechWomen</a>
+      <li/>
+    </ul>
+  </form>
+  <br/>
+  <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div>
+   <script type='text/javascript' src="{{ url_for('static', filename='markers.js') }}"></script>
+<!--    <script type="text/javascript"> 
+          $.get("/api/tweets").done((data) => { 
+            console.log(data); 
+            var markers = data
+          }); 
+        </script> -->
+  
   <script src="{{ url_for('static', filename='app.js') }}"></script>
-
 </body>
 </html>
