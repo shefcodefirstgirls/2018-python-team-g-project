@@ -1,11 +1,10 @@
 import os
 import tweepy
 from graphiql_request import get_profiles
-# from hashtags import get_hashtags
-import csv
 from flask import Flask, render_template, request
 from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
 from flask.json import jsonify
+from hashtag_test import authenticate, get_hashtags
 
 import config #delete before deployment, but need it for local testing
 
@@ -14,15 +13,7 @@ consumer_secret = os.environ["twitter_consumer_secret"]
 access_token = os.environ["twitter_access_token"]
 access_token_secret = os.environ["twitter_access_token_secret"]
 
-# @app.route("/feedback", methods=["POST"])
-# def get_feedback():
-#     data = request.values
-#     return render_template("feedback.html", form_data=data)
-
 app = Flask("teamg_app")
-
-# short_json = open("test_tweets.json")
-
 
 @app.route("/")
 def home():
@@ -30,22 +21,20 @@ def home():
 
 @app.route('/search',methods=['POST'])
 def search():
-    text=request.form['searchbox']
-    # processed_text = text.upper()
-    searchterm=text
-    # return processed_text
-    print(searchterm)
-    return "Hi"
+    searchterm=request.form['searchbox']
+    return render_template("hashtags.html", searchterm=searchterm)
 
 @app.route("/about") #from kat
 def about():
     profiles = get_profiles()
     return render_template("about.html", members=profiles, enumerate=enumerate)
 
-@app.route("/hashtags")
-def hashtags():
+@app.route("/hashtags/<searchterm>",methods=['GET'])
+def hashtags(searchterm="#sheftechwomen"):
+	# searchterm=searchterm
+	# print(searchterm)
 	api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
-	tweets= get_hashtags(api)
+	tweets= get_hashtags(api, searchterm, 10)
 	# tweets = collect_tweets("#sheffield", 10, api)
 	short_json = shorten_json(tweets)
 	loc_json = geolocate_tweet(short_json)

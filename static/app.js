@@ -16,7 +16,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     maxZoom: 18,
     minZoom: 1,
     id: 'mapbox.streets',
-    accessToken: "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
+    accessToken: "pk.eyJ1Ijoia2F0a29sZXIiLCJhIjoiY2pldm5xNnp1MGttZTMzbG5tbmV5M2gydyJ9.T1b6Ctnp5dA6gLfSsNb8Ow"
 }).addTo(mymap);
 
 // mymap.addControl(searchControl);
@@ -32,8 +32,15 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 
 // https://asmaloney.com/2015/06/code/clustering-markers-on-leaflet-maps/
+// $.getJSON("search", function(searchterm){
+// 	print(searchterm)
+// });
 
-$.getJSON( "hashtags", function( data ) {
+var query = encodeURIComponent(query)
+var search_url = "hashtags/" + query;
+console.log(search_url);
+
+$.getJSON( search_url, function( data ) {
 	var markers = data.markers
 	var markerClusters = L.markerClusterGroup();
 
