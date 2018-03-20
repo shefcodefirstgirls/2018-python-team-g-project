@@ -19,12 +19,14 @@ app = Flask("teamg_app")
 def home():
 	return render_template("index.html")
 
-@app.route('/search',methods=['POST'])
+@app.route('/search',methods=['POST','GET'])
 def search():
-    searchterm=request.form['searchbox']
-    n=request.form['numbertweets']
-    print(n)
-    return render_template("hashtags.html", searchterm=searchterm, numbertweets=n)
+	if request.method=='POST':
+		searchterm=request.form['searchbox']
+		n=request.form['numbertweets']
+		return render_template("hashtags.html", searchterm=searchterm, numbertweets=n)
+	else:
+		return render_template("hashtags.html")
 
 @app.route("/about") #from kat
 def about():

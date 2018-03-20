@@ -30,34 +30,9 @@
     </div> -->
   </form>
 
-<h1 class="tag">blah </h1>
-
-<script>
-
-$('.tag').click(function(){
-    alert($('h1').text());
-});
-//* When the user clicks on the button,
-// toggle between hiding and showing the dropdown content */
-// function myFunction() {
-//     document.getElementById("DropSearch").classList.toggle("show");
-// }
-//
-// function filterFunction() {
-//     var input, filter, ul, li, a, i;
-//     input = document.getElementById("searchbox");
-//     filter = input.value.toUpperCase();
-//     div = document.getElementById("DropSearch");
-//     a = div.getElementsByTagName("a");
-//     for (i = 0; i < a.length; i++) {
-//         if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-//             a[i].style.display = "";
-//         } else {
-//             a[i].style.display = "none";
-//         }
-//     }
-// }
-</script>
+<h1 class="tag">
+  <a href="{{url_for('search')}}">blah </a>
+</h1>
 
   <br/>
   <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div>

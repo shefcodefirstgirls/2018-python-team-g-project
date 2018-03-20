@@ -38,6 +38,14 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 var query = encodeURIComponent(query)
 var search_url = "hashtags/" + query + "/" + numbertweets ;
+
+$('.tag').click(function(){
+    var searchterm=($('h1').text());
+    var searchterm = encodeURIComponent(searchterm)
+    var numbertweets = 100
+    var search_url = "hashtags/" + searchterm + "/" +numbertweets;
+    console.log(search_url);
+});
 console.log(search_url);
 
 $.getJSON( search_url, function( data ) {
