@@ -46,7 +46,7 @@ $('.tag').click(function(){
     var search_url = "hashtags/" + searchterm + "/" +numbertweets;
     console.log(search_url);
 });
-console.log(search_url);
+// console.log(search_url);
 
 $.getJSON( search_url, function( data ) {
 	var markers = data.markers
