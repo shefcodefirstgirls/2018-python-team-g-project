@@ -28,7 +28,7 @@ def search():
     # processed_text = text.upper()
     searchterm=text
     # return processed_text
-    print(searchbox)
+    print(searchterm)
     return "Hi"
 
 @app.route("/about") #from kat
