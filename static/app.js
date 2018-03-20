@@ -21,8 +21,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 var myIcon = L.icon({
-  iconUrl: myURL + './pin24.png',
-  iconRetinaUrl: myURL + './pin48.png',
+  iconUrl: './pin24.png',
+  iconRetinaUrl: './pin48.png',
   iconSize: [29, 24],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
