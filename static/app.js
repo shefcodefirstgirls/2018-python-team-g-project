@@ -1,9 +1,4 @@
 
-$(document).ready(function() {
-    $('.js-example-basic-single').select2();
-});
-
-
 // var your.mapbox.access.token = "pk.eyJ1Ijoia2F0a29sZXIiLCJhIjoiY2pldm5xNnp1MGttZTMzbG5tbmV5M2gydyJ9.T1b6Ctnp5dA6gLfSsNb8Ow"
 
 // import { GeoSearchControl, OpenStreetMapProvider } from 'leaflet-geosearch';
@@ -42,7 +37,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 // });
 
 var query = encodeURIComponent(query)
-var search_url = "hashtags/" + query;
+var search_url = "hashtags/" + query + "/" + numbertweets ;
 console.log(search_url);
 
 $.getJSON( search_url, function( data ) {

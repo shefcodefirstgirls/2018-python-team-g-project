@@ -1,10 +1,10 @@
 import os
 import tweepy
 from graphiql_request import get_profiles
-from hashtag_test import authenticate, get_hashtags
 from flask import Flask, render_template, request
 from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
 from flask.json import jsonify
+from hashtag_test import authenticate, get_hashtags
 
 import config #delete before deployment, but need it for local testing
 
@@ -15,9 +15,6 @@ access_token_secret = os.environ["twitter_access_token_secret"]
 
 app = Flask("teamg_app")
 
-# short_json = open("test_tweets.json")
-
-
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -25,25 +22,25 @@ def home():
 @app.route('/search',methods=['POST'])
 def search():
     searchterm=request.form['searchbox']
-    return render_template("hashtags.html", searchterm=searchterm)
+    n=request.form['numbertweets']
+    print(n)
+    return render_template("hashtags.html", searchterm=searchterm, numbertweets=n)
 
 @app.route("/about") #from kat
 def about():
     profiles = get_profiles()
     return render_template("about.html", members=profiles, enumerate=enumerate)
 
-@app.route("/hashtags/<searchterm>",methods=['GET'])
-def hashtags(searchterm="#sheftechwomen"):
-	# searchterm=searchterm
-	# print(searchterm)
-	api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
-	tweets= get_hashtags(api, searchterm, 10)
-	# tweets = collect_tweets("#sheffield", 10, api)
+@app.route("/hashtags/<searchterm>/<n>",methods=['GET'])
+def hashtags(searchterm="#sheftechwomen",n=100):
+    n=int(n)
+    api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
+    tweets = get_hashtags(api, searchterm, n)
+    # tweets = collect_tweets("#sheffield", 10, api)
     short_json = shorten_json(tweets)
     loc_json = geolocate_tweet(short_json)
 	# return short_json
 	# return loc_json #doesnt want to return a list
-    # print(searchterm)
     return jsonify({"markers": [tweet for i, tweet in enumerate(loc_json)]})
 
 """

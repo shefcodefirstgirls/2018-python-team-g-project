@@ -1,12 +1,9 @@
 {% include "header.html" %}
+<p> Map your favourite twitter hashtag </p>
+
 <form action="{{url_for('search')}}" method="post">
     <input type="text" placeholder="#" name="searchbox">
-        <select class="js-example-basic-single" name="searchbox">
-        <option value="#womenintech">#womenintech</option>
-        <option value="#STEM">#STEM</option>
-        <option value="#shefcodefirst">#ShefCodeFirst</option>
-        <option value="WeAreTechWomen">#WeAreTechWomen</option>
-    </select>
+    <input type="number" placeholder="100"  name="numbertweets" min=1 max=2000>
     <input type="submit" value="Search!">
 
   <!-- <form action="{{url_for('search')}}" method="post">
@@ -33,35 +30,41 @@
     </div> -->
   </form>
 
-<!-- <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("DropSearch").classList.toggle("show");
-}
+<h1 class="tag">blah </h1>
 
-function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("searchbox");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("DropSearch");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
-        } else {
-            a[i].style.display = "none";
-        }
-    }
-}
-</script> -->
+<script>
+
+$('.tag').click(function(){
+    alert($('h1').text());
+});
+//* When the user clicks on the button,
+// toggle between hiding and showing the dropdown content */
+// function myFunction() {
+//     document.getElementById("DropSearch").classList.toggle("show");
+// }
+//
+// function filterFunction() {
+//     var input, filter, ul, li, a, i;
+//     input = document.getElementById("searchbox");
+//     filter = input.value.toUpperCase();
+//     div = document.getElementById("DropSearch");
+//     a = div.getElementsByTagName("a");
+//     for (i = 0; i < a.length; i++) {
+//         if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+//             a[i].style.display = "";
+//         } else {
+//             a[i].style.display = "none";
+//         }
+//     }
+// }
+</script>
 
   <br/>
   <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div>
    <!-- <script type='text/javascript' src="{{ url_for('static', filename='markers.js') }}"></script> -->
-<!--    <script type="text/javascript"> 
-          $.get("/api/tweets").done((data) => { 
-            console.log(data); 
+   <!-- <script type="text/javascript">
+          $.get("/api/tweets").done((data) => {
+            console.log(data);
             var markers = data
           });
         </script> -->
