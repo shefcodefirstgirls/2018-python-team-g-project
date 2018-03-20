@@ -1,6 +1,5 @@
 Flask
 requests
 tweepy
-sys
 geopy.geocoders
 flask.json
