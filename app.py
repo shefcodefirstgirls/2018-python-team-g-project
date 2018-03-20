@@ -1,4 +1,3 @@
-import os #delete before deployment
 import tweepy
 from graphiql_request import get_profiles
 from flask import Flask, render_template, request
@@ -6,6 +5,7 @@ from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
 from flask.json import jsonify
 from hashtag_test import authenticate, get_hashtags
 
+import os #delete before deployment
 import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"] #delete before deployment
