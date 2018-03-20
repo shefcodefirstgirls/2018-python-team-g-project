@@ -1,4 +1,9 @@
 
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});
+
+
 // var your.mapbox.access.token = "pk.eyJ1Ijoia2F0a29sZXIiLCJhIjoiY2pldm5xNnp1MGttZTMzbG5tbmV5M2gydyJ9.T1b6Ctnp5dA6gLfSsNb8Ow"
 
 // import { GeoSearchControl, OpenStreetMapProvider } from 'leaflet-geosearch';
@@ -79,6 +84,3 @@ $.getJSON( search_url, function( data ) {
 // mymap.addLayer( markerClusters );
 
 // var marker = L.marker([-41.5, 10.09]).addTo(mymap);
-
-
-

@@ -14,7 +14,7 @@ def get_hashtags(api):
     # searchterm = hashtagcheck(searchterm)
     csvFile = open('tweets.csv', 'a')
     csvWriter = csv.writer(csvFile)
-    search_hashtag = tweepy.Cursor(api.search,q=searchterm).items()
+    search_hashtag = tweepy.Cursor(api.search,q=searchterm).items(10)
     for tweet in search_hashtag:
         return csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8'), tweet.user.location.encode('utf-8'),tweet.user.time_zone,tweet.place,tweet.coordinates])
 #        csvFile.close()
