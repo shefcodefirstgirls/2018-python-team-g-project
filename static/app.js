@@ -16,8 +16,17 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     maxZoom: 18,
     minZoom: 1,
     id: 'mapbox.streets',
-    accessToken: "pk.eyJ1Ijoia2F0a29sZXIiLCJhIjoiY2pldm5xNnp1MGttZTMzbG5tbmV5M2gydyJ9.T1b6Ctnp5dA6gLfSsNb8Ow"
+    accessToken: "pk.eyJ1Ijoia2F0a29sZXIiLCJhIjoiY2pldm5xNnp1MGttZTMzbG5tbmV5M2gydyJ9.T1b6Ctnp5dA6gLfSsNb8Ow", 
+    subdomains: ['a','b','c']
 }).addTo(mymap);
+
+var myIcon = L.icon({
+  iconUrl: myURL + './pin24.png',
+  iconRetinaUrl: myURL + './pin48.png',
+  iconSize: [29, 24],
+  iconAnchor: [9, 21],
+  popupAnchor: [0, -14]
+});
 
 // mymap.addControl(searchControl);
 
@@ -59,8 +68,7 @@ $.getJSON( search_url, function( data ) {
 	              '<br/><b>Altitude:</b> ' + markers[i].text +
 	              '<br/><b>Timezone:</b> ' + markers[i].time_zone;
 
-	  var m = L.marker( [markers[i].lat, markers[i].lng])
-	                  .bindPopup( popup );
+	  var m = L.marker( [markers[i].lat, markers[i].lng], {icon: myIcon} ).bindPopup( popup );
 
 	  markerClusters.addLayer( m );
 	}

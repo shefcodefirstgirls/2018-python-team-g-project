@@ -1,4 +1,4 @@
-import os
+import os #delete before deployment
 import tweepy
 from graphiql_request import get_profiles
 from flask import Flask, render_template, request
@@ -8,10 +8,10 @@ from hashtag_test import authenticate, get_hashtags
 
 import config #delete before deployment, but need it for local testing
 
-consumer_key = os.environ["twitter_consumer_key"]
-consumer_secret = os.environ["twitter_consumer_secret"]
-access_token = os.environ["twitter_access_token"]
-access_token_secret = os.environ["twitter_access_token_secret"]
+consumer_key = os.environ["twitter_consumer_key"] #delete before deployment
+consumer_secret = os.environ["twitter_consumer_secret"] #delete before deployment
+access_token = os.environ["twitter_access_token"] #delete before deployment
+access_token_secret = os.environ["twitter_access_token_secret"] #delete before deployment
 
 app = Flask("teamg_app")
 

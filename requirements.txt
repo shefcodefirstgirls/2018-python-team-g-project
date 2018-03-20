@@ -3,5 +3,6 @@ requests
 tweepy
 json
 sys
-geopy
+geopy.geocoders
 flask.json
+os
