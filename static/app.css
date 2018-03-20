@@ -1,10 +1,11 @@
 h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Slab', serif;
   background-color: : red;
 }
 
 body {
   background-color: lightblue;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav ul {

@@ -17,7 +17,7 @@ app = Flask("teamg_app")
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+	return render_template("index.html")
 
 @app.route('/search',methods=['POST'])
 def search():
@@ -28,8 +28,8 @@ def search():
 
 @app.route("/about") #from kat
 def about():
-    profiles = get_profiles()
-    return render_template("about.html", members=profiles, enumerate=enumerate)
+	profiles = get_profiles()
+	return render_template("about.html", members=profiles, enumerate=enumerate)
 
 @app.route("/hashtags/<searchterm>/<n>",methods=['GET'])
 def hashtags(searchterm="#sheftechwomen",n=100):
@@ -50,6 +50,6 @@ running the app on Heroku, the PORT environment/config variable is pre-populated
 Heroku to tell our app the correct port to run on.
 """
 if "PORT" in os.environ:
-    app.run(host="0.0.0.0", port=int(os.environ["PORT"]))
+	app.run(host="0.0.0.0", port=int(os.environ["PORT"]))
 else:
-    app.run(debug=True)
+	app.run(debug=True)
