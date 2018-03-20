@@ -1,6 +1,12 @@
 import os
 import tweepy
 from graphiql_request import get_profiles
+# from hashtags import get_hashtags
+import csv
+from flask import Flask, render_template, request
+from geocoding_tweets import shorten_json, geolocate_tweet, get_all_markers
+from flask.json import jsonify
+
 import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"]
@@ -8,40 +14,44 @@ consumer_secret = os.environ["twitter_consumer_secret"]
 access_token = os.environ["twitter_access_token"]
 access_token_secret = os.environ["twitter_access_token_secret"]
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-
-api = tweepy.API(auth)
-
-from flask import Flask, render_template, request
-
-app = Flask("teamg_app")
-
-@app.route("/")
-def home():
-    return render_template("index.html")
-#need to design frontend in "mainpage.html"
-#still has log in boxes
-
-@app.route("/hashtags")
-def hashtagscrape():
-
-    return render_template("index.html")
-
-# app actions??
-# https://developer.twitter.com/en/docs/tweets/enrichments/overview/profile-geo
-# https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/all-operators
-
-
 # @app.route("/feedback", methods=["POST"])
 # def get_feedback():
 #     data = request.values
 #     return render_template("feedback.html", form_data=data)
 
+app = Flask("teamg_app")
+
+# short_json = open("test_tweets.json")
+
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route('/search',methods=['POST'])
+def search():
+    text=request.form['searchbox']
+    # processed_text = text.upper()
+    searchterm=text
+    # return processed_text
+    print(searchterm)
+    return "Hi"
+
 @app.route("/about") #from kat
 def about():
     profiles = get_profiles()
     return render_template("about.html", members=profiles, enumerate=enumerate)
+
+@app.route("/hashtags")
+def hashtags():
+	api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
+	tweets= get_hashtags(api)
+	# tweets = collect_tweets("#sheffield", 10, api)
+	short_json = shorten_json(tweets)
+	loc_json = geolocate_tweet(short_json)
+	# return short_json
+	# return loc_json #doesnt want to return a list 
+	return jsonify({"markers": [tweet for i, tweet in enumerate(loc_json)]})
 
 """
 This piece of logic checks whether you are running the app locally or on Heroku

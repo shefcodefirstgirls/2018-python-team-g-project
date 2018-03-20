@@ -1,15 +1,51 @@
 {% include "header.html" %}
-  <h1>Hello world!</h1>
 
-  <form action="/feedback" method="post">
-    <!-- log in boxes -->
-    <label for="name">Name: </label>
-    <input type="text" name="name" id="name">
-
-    <label for="email">Email: </label>
-    <input type="email" name="email" id="email">
-
-    <input type="submit" value="Send!">
+  <form action="{{url_for('search')}}" method="post">
+    <input type="text" placeholder="#" name="searchbox">
+    <select class="js-example-basic-single" name="searchbox">
+        <option value="#womenintech">#womenintech</option>
+        <option value="#STEM">#STEM</option>
+        <option value="#shefcodefirst">#ShefCodeFirst</option>
+        <option value="WeAreTechWomen">#WeAreTechWomen</option>
+    </select>
+    <input type="submit" value="Search!">
+    <!-- <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Search</button>
+      <div name="Dropsearch" class="dropdown-content">
+        <input type="text" placeholder="#" name="searchbox" onkeyup="filterFunction()">
+        <a href="#WomenInTech">#womenintech</a>
+        <a href="#STEM">#STEM</a>
+        <a href="#ShefCodeFirst">#ShefCodeFirst/a>
+      </div>
+    </div> -->
   </form>
+
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="{{url_for('home')}}">#womenintech</a>
+        <!-- 'home' links for now!! -->
+      </li>
+      <li>
+        <a href="{{url_for('home')}}">#STEM</a>
+      </li>
+      <li>
+        <a href="{{url_for('home')}}">#ShefCodeFirst</a>
+      </li>
+      <li>
+        <a href="{{url_for('home')}}">#WeAreTechWomen</a>
+      <li/>
+    </ul>
+  </form>
+  <br/>
+  <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div>
+   <script type='text/javascript' src="{{ url_for('static', filename='markers.js') }}"></script>
+<!--    <script type="text/javascript"> 
+          $.get("/api/tweets").done((data) => { 
+            console.log(data); 
+            var markers = data
+          }); 
+        </script> -->
+  
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
 </body>
 </html>
