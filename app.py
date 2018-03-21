@@ -6,7 +6,7 @@ from flask.json import jsonify
 from hashtag_test import authenticate, get_hashtags
 import os
 
-import config #delete before deployment, but need it for local testing
+# import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"] 
 consumer_secret = os.environ["twitter_consumer_secret"] 
