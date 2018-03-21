@@ -1,11 +1,11 @@
 import json
 import requests
-# import os
+import os
 from helpers import fallback_to_file
 # import config #need this locally
 
 
-# token = os.environ["github_api_key"]
+token = os.environ["github_api_key"]
 
 def get_profiles():
 

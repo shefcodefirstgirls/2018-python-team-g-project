@@ -6,13 +6,12 @@ from flask.json import jsonify
 from hashtag_test import authenticate, get_hashtags
 import os
 
-# import os #delete before deployment
 # import config #delete before deployment, but need it for local testing
 
-# consumer_key = os.environ["twitter_consumer_key"] #delete before deployment
-# consumer_secret = os.environ["twitter_consumer_secret"] #delete before deployment
-# access_token = os.environ["twitter_access_token"] #delete before deployment
-# access_token_secret = os.environ["twitter_access_token_secret"] #delete before deployment
+consumer_key = os.environ["twitter_consumer_key"] 
+consumer_secret = os.environ["twitter_consumer_secret"] 
+access_token = os.environ["twitter_access_token"] 
+access_token_secret = os.environ["twitter_access_token_secret"]
 
 app = Flask("teamg_app")
 
