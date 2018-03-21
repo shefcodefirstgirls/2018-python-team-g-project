@@ -6,7 +6,7 @@ from flask.json import jsonify
 from hashtag_test import authenticate, get_hashtags
 import os
 
-# import config #delete before deployment, but need it for local testing
+import config #delete before deployment, but need it for local testing
 
 consumer_key = os.environ["twitter_consumer_key"] 
 consumer_secret = os.environ["twitter_consumer_secret"] 
@@ -25,10 +25,8 @@ def search():
 		searchterm=request.form['searchbox']
 		n=request.form['numbertweets']
 		return render_template("hashtags.html", searchterm=searchterm, numbertweets=n)
-	else:
-		return render_template("hashtags.html")
 
-@app.route("/about") #from kat
+@app.route("/about")
 def about():
 	profiles = get_profiles()
 	return render_template("about.html", members=profiles, enumerate=enumerate)

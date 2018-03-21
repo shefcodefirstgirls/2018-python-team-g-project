@@ -71,8 +71,8 @@ def geolocate_tweet(json_file):
 					result.append(item)
 				else:
 					item['address'] = "Location not defined"
-					item['lng'] = "-10.179"
-					item['lat'] = "-60.268"
+					item['lng'] = "-10.0"
+					item['lat'] = "-60.0"
 					result.append(item)
 					continue
 			except geopy.exc.GeocoderTimedOut:
@@ -85,10 +85,6 @@ def geolocate_tweet(json_file):
 def get_all_markers(json_file):
     markers = json_file
     return markers
-# @app.route("/api/drugs")
-# def get_all_drugs():
-#     drugs = Drug.query.all()
-#     return jsonify({"drugs": [drug.name for drug in drugs]})
 
 
 # short_json = shorten_json("test_tweets.json")
