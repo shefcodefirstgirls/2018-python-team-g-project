@@ -67,9 +67,10 @@ $.getJSON( search_url, function( data ) {
 
 	for ( var i = 0; i < markers.length; ++i )
 	{
-	  var popup = '<br/><b>User:</b> '+ markers[i].screen_name +
+	  var popup = '<br/><b>User:</b><a href=\"https://twitter.com/' + markers[i].screen_name + '\">' + markers[i].screen_name + '</a>' +
+	  				'<br/><b>Created at:</b> ' + markers[i].created_at +
 	  	          '<br/><b>Tweet:</b> ' + markers[i].text +
-	  	          '<br/><b>Tweet Link:</b> <a href=\"https://twitter.com/i/web/status/' + markers[i].id_str + '\">' + markers[i].id_str +  '</a>' +
+	  	          '<br/><b>Tweet Link:</b><a href=\"https://twitter.com/i/web/status/' + markers[i].id_str + '\">' + markers[i].id_str + '</a>' +
 	              '<br/><b>Location:</b> ' + markers[i].location +
 	              '<br/><b>Timezone:</b> ' + markers[i].time_zone;
 
