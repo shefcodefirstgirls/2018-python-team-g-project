@@ -21,8 +21,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 var myIcon = L.icon({
-  iconUrl: myURL + './pin24.png',
-  iconRetinaUrl: myURL + './pin48.png',
+  iconUrl: '/static/pin24.png',
+  iconRetinaUrl: '/static/pin48.png',
   iconSize: [29, 24],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
@@ -59,13 +59,18 @@ $('.tag').click(function(){
 
 $.getJSON( search_url, function( data ) {
 	var markers = data.markers
-	var markerClusters = L.markerClusterGroup();
+	var markerClusters = L.markerClusterGroup({
+		spiderfyOnMaxZoom: true,
+		showCoverageOnHover: true,
+		zoomToBoundsOnClick: true
+	});
 
 	for ( var i = 0; i < markers.length; ++i )
 	{
-	  var popup = markers[i].screen_name +
-	              '<br/>' + markers[i].location +
-	              '<br/><b>Altitude:</b> ' + markers[i].text +
+	  var popup = '<br/><b>User:</b> '+ markers[i].screen_name +
+	  	          '<br/><b>Tweet:</b> ' + markers[i].text +
+	  	          '<br/><b>Tweet Link:</b> <a href=\"https://twitter.com/i/web/status/' + markers[i].id_str + '\">' + markers[i].id_str +  '</a>' +
+	              '<br/><b>Location:</b> ' + markers[i].location +
 	              '<br/><b>Timezone:</b> ' + markers[i].time_zone;
 
 	  var m = L.marker( [markers[i].lat, markers[i].lng], {icon: myIcon} ).bindPopup( popup );

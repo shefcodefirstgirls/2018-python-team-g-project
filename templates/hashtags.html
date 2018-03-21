@@ -5,8 +5,15 @@
 	var numbertweets = '{{numbertweets}}'
 </script>
 
-<div> <h1> {{searchterm}}! {{numbertweets}}</h1> </div>
-  <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div>
+<div style="padding-top: 10%"> 
+	<h1>You are looking at {{searchterm}} around the world!</h1>
+	<p>Hover over a cluster to see the area of those tweets</p>
+	<p>Click on a cluster to see individual tweets</p>
+	<p>Click on a marker to see more info about the tweet</p>
+
+ </div>
+ <div id="mapid" style="min-height: 400px; height: 70%; width: 70%; border: 1px solid #AAA; margin: 5% 15% 15% 15%;"></div>
+  <!-- <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA; margin: 5% 15% 15% 15%;"></div> -->
    <!-- <script type='text/javascript' src="{{ url_for('static', filename='markers.js') }}"></script> -->
 <!--    <script type="text/javascript">
           $.get("/api/tweets").done((data) => {

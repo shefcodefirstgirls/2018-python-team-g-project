@@ -1,10 +1,16 @@
 {% include "header.html" %}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div style="width: 70%; height: 80%; padding-top: 10% ; margin:0 15% 15% 15%;">
 <p> Map your favourite twitter hashtag </p>
 
 <form action="{{url_for('search')}}" method="post">
     <input type="text" placeholder="#" name="searchbox">
     <input type="number" placeholder="100"  name="numbertweets" min=1 max=2000>
-    <input type="submit" value="Search!">
+    <input type="submit" class="button" value="Search!">
 
   <!-- <form action="{{url_for('search')}}" method="post">
     <div class="dropdown">
@@ -25,13 +31,15 @@
   <a href="{{url_for('search')}}">#ShefCodeFirst </a>
   <a href="{{url_for('search')}}">#WomenInTech </a>
   <a href="{{url_for('search')}}">#STEMwomen </a>
+  <br/>
   <a href="{{url_for('search')}}">#ThisGirlCan </a>
   <a href="{{url_for('search')}}">#ShefTechWomen </a>
   <a href="{{url_for('search')}}">#womeninSTEM </a>
+  <br/>
   <a href="{{url_for('search')}}">#DigitalNorth </a>
   <a href="{{url_for('search')}}">#EmpoweringWomen </a>
 </h1>
-
+</div>
 <!--   <br/>
   <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div> -->
    <!-- <script type='text/javascript' src="{{ url_for('static', filename='markers.js') }}"></script> -->
