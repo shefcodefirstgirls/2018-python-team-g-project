@@ -48,13 +48,20 @@ var myIcon = L.icon({
 var query = encodeURIComponent(query)
 var search_url = "hashtags/" + query + "/" + numbertweets ;
 
-$('.tag').click(function(){
-    var searchterm=($('h1').text());
-    var searchterm = encodeURIComponent(searchterm)
-    var numbertweets = 100
-    var search_url = "hashtags/" + searchterm + "/" +numbertweets;
-    console.log(search_url);
-});
+// $('.tag').click(function(){
+//     var searchterm=($('h1').text());
+//     var searchterm = encodeURIComponent(searchterm)
+//     var numbertweets = 100
+//     var search_url = "hashtags/" + searchterm + "/" +numbertweets;
+//     console.log(search_url);
+// });
+$('.tag a').click(function (e) {
+    e.preventDefault();
+    var click_value = $('this').attr("data-value");
+    $(this).closest('form').find('input #hash').attr('data-value', click_value).val(click_value);
+    console.log(click_value)
+ });
+
 // console.log(search_url);
 
 $.getJSON( search_url, function( data ) {
@@ -67,10 +74,10 @@ $.getJSON( search_url, function( data ) {
 
 	for ( var i = 0; i < markers.length; ++i )
 	{
-	  var popup = '<br/><b>User:</b><a href=\"https://twitter.com/' + markers[i].screen_name + '\">' + markers[i].screen_name + '</a>' +
+	  var popup = '<br/><b>User:</b><a href=\"https://twitter.com/' + markers[i].screen_name + '\" target=\"_blank\">' + markers[i].screen_name + '</a>' +
 	  				'<br/><b>Created at:</b> ' + markers[i].created_at +
 	  	          '<br/><b>Tweet:</b> ' + markers[i].text +
-	  	          '<br/><b>Tweet Link:</b><a href=\"https://twitter.com/i/web/status/' + markers[i].id_str + '\">' + markers[i].id_str + '</a>' +
+	  	          '<br/><b>Tweet Link:</b><a href=\"https://twitter.com/i/web/status/' + markers[i].id_str + '\" target=\"_blank\">' + markers[i].id_str + '</a>' +
 	              '<br/><b>Location:</b> ' + markers[i].location +
 	              '<br/><b>Timezone:</b> ' + markers[i].time_zone;
 

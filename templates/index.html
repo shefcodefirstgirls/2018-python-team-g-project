@@ -1,10 +1,6 @@
 {% include "header.html" %}
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<div style="width: 70%; height: 80%; padding-top: 7% ; margin:0 15% 15% 15%;">
+
+<div style="width: 70%; height: 80%; padding-top: 15% ; margin:0 15% 15% 15%;">
 <p style="font-size: 20pt"> Map your favourite twitter hashtag </p>
 
 <form action="{{url_for('search')}}" method="post">
@@ -12,46 +8,31 @@
     <input type="text" id="hash" placeholder="#" value="#shefcodefirst" name="searchbox">
     <!-- <label for="num">Number of tweets</label> -->
     <input type="number" id="num" placeholder="50" value="50" name="numbertweets" min=1 max=1000>
-    <input type="submit" class="button" value="Search!">
-
-  <!-- <form action="{{url_for('search')}}" method="post">
-    <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-      <div name="dropsearch" class= "dropdown-content">
-        <input type="text" placeholder="#" name="searchbox">
-        <input class="dropdown" name="searchbox"> -->
-        <!-- <a href="#womenintech">#womenintech</a>
-        <a href="#STEM">#STEM</a>
-        <a href="#shefcodefirst">#ShefCodeFirst</a>
-        <a href="WeAreTechWomen">#WeAreTechWomen</a>
-        <a href="CodeFirstGirls">#CodeFirstGirls</a> -->
-        <!-- <input type="submit" value="Search!"> -->
+    <input type="submit" id="search" class="button" value="Search!">
 
   </form>
-
 <h1 class="tag">
-  <a href="{{url_for('search')}}">#ShefCodeFirst</a>
-  <a href="{{url_for('search')}}">#WomenInTech</a>
-  <a href="{{url_for('search')}}">#STEMwomen</a>
+  <a data-value="#ShefCodeFirst" href="#">#ShefCodeFirst</a>
+  <a data-value="#WomenInTech" href="#">#WomenInTech</a>
+  <a data-value="#STEMwomen" href="#">#STEMwomen</a>
   <br/>
-  <a href="{{url_for('search')}}">#ThisGirlCan </a>
-  <a href="{{url_for('search')}}">#ShefTechWomen </a>
-  <a href="{{url_for('search')}}">#womeninSTEM </a>
+  <a data-value="#ThisGirlCan" href="#">#ThisGirlCan </a>
+  <a data-value="#ShefTechWomen" href="#">#ShefTechWomen </a>
+  <a data-value="#womeninSTEM" href="#">#womeninSTEM </a>
   <br/>
-  <a href="{{url_for('search')}}">#DigitalNorth </a>
-  <a href="{{url_for('search')}}">#EmpoweringWomen </a>
+  <a data-value="#DigitalNorth" href="#">#DigitalNorth </a>
+  <a data-value="#EmpoweringWomen" href="#">#EmpoweringWomen </a>
 </h1>
-</div>
-<!--   <br/>
-  <div id="mapid" style="height: 500px; width: 70%; border: 1px solid #AAA;"></div> -->
-   <!-- <script type='text/javascript' src="{{ url_for('static', filename='markers.js') }}"></script> -->
-   <!-- <script type="text/javascript">
-          $.get("/api/tweets").done((data) => {
-            console.log(data);
-            var markers = data
-          });
-        </script> -->
 
-<!--   <script src="{{ url_for('static', filename='app.js') }}"></script> -->
+</div>
+<script>
+  $('.tag a').click(function (e) {
+    e.preventDefault();
+    var click_value = $(this).attr("data-value");
+    $('#hash').val(click_value);
+    console.log(click_value)
+    $('#search').click()
+ });
+  </script>
 
 {% include "footer.html" %}
