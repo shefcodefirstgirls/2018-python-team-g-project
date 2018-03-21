@@ -1,20 +1,20 @@
 h1 {
   font-family: 'Roboto Slab', serif;
   text-align: center;
-  color: #c4d5e0;
+  color: #ddffff;
 }
 
 h2 {
   font-family: 'Roboto Slab', serif;
   text-align: center;
-  color: #c4d5e0;
+  color: #ddffff;
 }
 
 @keyframes wallpaper {
-    0%   {background-color: #010121;}
-    35%  {background-color: #1e0021;}
-    75%  {background-color: #022323;}
-    100% {background-color: #010121;}
+    0%   {background-color: #01013a;}
+    35%  {background-color: #29002d;}
+    75%  {background-color: #033a3a;}
+    100% {background-color: #01013a;}
 }
 
 body {
@@ -34,11 +34,11 @@ div .all_body {
 a {
   font-family: 'Roboto Slab', serif;
   text-align: center;
-  color: #c4d5e0; 
+  color: #ddffff; 
 }
 
 p {
- color: #c4d5e0;
+ color: #ddffff;
  font-size: 12pt;  
 }
 
