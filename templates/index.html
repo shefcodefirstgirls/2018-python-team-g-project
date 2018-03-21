@@ -4,12 +4,14 @@
 <br/>
 <br/>
 <br/>
-<div style="width: 70%; height: 80%; padding-top: 10% ; margin:0 15% 15% 15%;">
-<p> Map your favourite twitter hashtag </p>
+<div style="width: 70%; height: 80%; padding-top: 7% ; margin:0 15% 15% 15%;">
+<p style="font-size: 20pt"> Map your favourite twitter hashtag </p>
 
 <form action="{{url_for('search')}}" method="post">
-    <input type="text" placeholder="#" name="searchbox">
-    <input type="number" placeholder="50"  name="numbertweets" min=1 max=1000>
+<!--     <label for="hash">Hashtag</label> <br/>-->
+    <input type="text" id="hash" placeholder="#" value="#shefcodefirst" name="searchbox">
+    <!-- <label for="num">Number of tweets</label> -->
+    <input type="number" id="num" placeholder="50" value="50" name="numbertweets" min=1 max=1000>
     <input type="submit" class="button" value="Search!">
 
   <!-- <form action="{{url_for('search')}}" method="post">
@@ -28,9 +30,9 @@
   </form>
 
 <h1 class="tag">
-  <a href="{{url_for('search')}}">#ShefCodeFirst </a>
-  <a href="{{url_for('search')}}">#WomenInTech </a>
-  <a href="{{url_for('search')}}">#STEMwomen </a>
+  <a href="{{url_for('search')}}">#ShefCodeFirst</a>
+  <a href="{{url_for('search')}}">#WomenInTech</a>
+  <a href="{{url_for('search')}}">#STEMwomen</a>
   <br/>
   <a href="{{url_for('search')}}">#ThisGirlCan </a>
   <a href="{{url_for('search')}}">#ShefTechWomen </a>

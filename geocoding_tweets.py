@@ -1,6 +1,7 @@
 import json
 import sys
 from geopy.geocoders import Nominatim
+import geopy
 from flask.json import jsonify
 from flask import Flask
 
@@ -45,26 +46,37 @@ def geolocate_tweet(json_file):
 		if tweet_location != "":
 			# print("location")
 			# print(tweet_location)
-			location = geolocator.geocode(tweet_location, timeout = 1)
-			if location != None:
-				item['address'] = location.address
-				item['lng'] = location.longitude
-				item['lat'] = location.latitude
-				result.append(item)
-				continue
+			try:
+				location = geolocator.geocode(tweet_location, timeout = 1)
+				if location != None:
+					item['address'] = location.address
+					item['lng'] = location.longitude
+					item['lat'] = location.latitude
+					result.append(item)
+					continue
+			except geopy.exc.GeocoderTimedOut:
+				pass		
 			# print(location.address)
 			# print(location.latitude, location.longitude)
 		if tweet_timezone != None:
 			# print("timezone")
 			# print(tweet_timezone)
-			location = geolocator.geocode(tweet_timezone, timeout = 1)
-			print(location)
-			if location != None:
-				item['address'] = location.address
-				item['lng'] = location.longitude
-				item['lat'] = location.latitude
-				result.append(item)
-				continue
+			try:
+				location = geolocator.geocode(tweet_timezone, timeout = 1)
+				print(location)
+				if location != None:
+					item['address'] = location.address
+					item['lng'] = location.longitude
+					item['lat'] = location.latitude
+					result.append(item)
+				else:
+					item['address'] = "Location not defined"
+					item['lng'] = "-10.179"
+					item['lat'] = "-60.268"
+					result.append(item)
+					continue
+			except geopy.exc.GeocoderTimedOut:
+				pass	
 			# print(location.address)
 			# print(location.latitude, location.longitude)
 	return result
