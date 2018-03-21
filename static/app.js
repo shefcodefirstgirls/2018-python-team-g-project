@@ -1,13 +1,4 @@
-
 // var your.mapbox.access.token = "pk.eyJ1Ijoia2F0a29sZXIiLCJhIjoiY2pldm5xNnp1MGttZTMzbG5tbmV5M2gydyJ9.T1b6Ctnp5dA6gLfSsNb8Ow"
-
-// import { GeoSearchControl, OpenStreetMapProvider } from 'leaflet-geosearch';
-
-// const provider = new OpenStreetMapProvider();
-
-// const searchControl = new GeoSearchControl({
-//   provider: provider,
-// });
 
 var mymap = L.map('mapid').setView([0, 0], 1);
 
@@ -28,10 +19,6 @@ var myIcon = L.icon({
   popupAnchor: [0, -14]
 });
 
-// mymap.addControl(searchControl);
-
-// var marker = L.marker([51.5, -0.09]).addTo(mymap);
-
 // var circle = L.circle([51.508, -0.11], {
 //     color: 'red',
 //     fillColor: '#f03',
@@ -39,30 +26,13 @@ var myIcon = L.icon({
 //     radius: 500
 // }).addTo(mymap);
 
-
 // https://asmaloney.com/2015/06/code/clustering-markers-on-leaflet-maps/
-// $.getJSON("search", function(searchterm){
-// 	print(searchterm)
-// });
 
 var query = encodeURIComponent(query)
 var search_url = "hashtags/" + query + "/" + numbertweets ;
 
-// $('.tag').click(function(){
-//     var searchterm=($('h1').text());
-//     var searchterm = encodeURIComponent(searchterm)
-//     var numbertweets = 100
-//     var search_url = "hashtags/" + searchterm + "/" +numbertweets;
-//     console.log(search_url);
-// });
-$('.tag a').click(function (e) {
-    e.preventDefault();
-    var click_value = $('this').attr("data-value");
-    $(this).closest('form').find('input #hash').attr('data-value', click_value).val(click_value);
-    console.log(click_value)
- });
-
 // console.log(search_url);
+document.getElementById("loading").style.display = "inline";
 
 $.getJSON( search_url, function( data ) {
 	var markers = data.markers
@@ -85,26 +55,6 @@ $.getJSON( search_url, function( data ) {
 
 	  markerClusters.addLayer( m );
 	}
-
+	document.getElementById("loading").style.display = "none";
 	mymap.addLayer( markerClusters );
 });
-
-
-// var markerClusters = L.markerClusterGroup();
-
-// for ( var i = 0; i < markers.length; ++i )
-// {
-//   var popup = markers[i].screen_name +
-//               '<br/>' + markers[i].location +
-//               '<br/><b>Altitude:</b> ' + markers[i].text +
-//               '<br/><b>Timezone:</b> ' + markers[i].time_zone;
-
-//   var m = L.marker( [markers[i].lat, markers[i].lng])
-//                   .bindPopup( popup );
-
-//   markerClusters.addLayer( m );
-// }
-
-// mymap.addLayer( markerClusters );
-
-// var marker = L.marker([-41.5, 10.09]).addTo(mymap);
