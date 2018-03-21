@@ -1,12 +1,12 @@
 {% include "header.html" %}
 
-  <div class="about-container">
+  <div class="about-container" style="padding-top: 10% ">
     {% for member in members %}
       <div class="blocks block">
         <h2>{{member["name"]}}</h2>
         <img src="{{member['avatarUrl']}}" alt="{{member['name']}}" style="width: 40%; border-radius: 50%;">
         <br><br>
-        <p style="color: black; width: 60%; margin: 0 auto; border-radius: 5%;">{{member["bio"]}}</p>
+        <p style="width: 60%; margin: 0 auto; border-radius: 5%;">{{member["bio"]}}</p>
 
       </div>
 

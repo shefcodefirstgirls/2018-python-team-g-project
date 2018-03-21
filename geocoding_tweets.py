@@ -20,7 +20,7 @@ def shorten_json(json_file):
 	#variable
 	j = json.loads(json_file)
 	for i, item in enumerate(j):
-		entry = {'created_at': item['created_at'], 'id_str': item['id_str'], 'text': item['text'], 'hashtags': item['entities']['hashtags'], 'name': item['user']['name'], 'screen_name': item['user']['screen_name'], 'location': item['user']['location'], 'time_zone': item['user']['time_zone'], 'coordinates': item['coordinates'], 'retweet_count': item['retweet_count'], 'favorite_count': item['favorite_count'] }
+		entry = {'created_at': item['created_at'], 'id_str': item['id_str'], 'text': item['text'], 'hashtags': item['entities']['hashtags'], 'name': item['user']['name'], 'screen_name': item['user']['screen_name'], 'location': item['user']['location'], 'time_zone': item['user']['time_zone'], 'coordinates': item['coordinates'], 'retweet_count': item['retweet_count'], 'favorite_count': item['favorite_count']}
 		short_json.append(entry)
 
 	return short_json

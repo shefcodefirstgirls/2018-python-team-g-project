@@ -1,16 +1,49 @@
 h1 {
   font-family: 'Roboto Slab', serif;
-  background-color: : red;
+  text-align: center;
+  color: #c4d5e0;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: #c4d5e0;
+}
+
+@keyframes wallpaper {
+    0%   {background-color: #010121;}
+    35%  {background-color: #1e0021;}
+    75%  {background-color: #022323;}
+    100% {background-color: #010121;}
 }
 
 body {
-  background-color: lightblue;
+  background-color: #010121;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  animation-name: wallpaper;
+  animation-duration: 30s;
+  height: 100vh;
+}
+
+div .all_body {
+  margin-top: 10%;
+}
+
+
+a {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: #c4d5e0; 
+}
+
+p {
+ color: #c4d5e0;
+ font-size: 12pt;  
 }
 
 nav ul {
   list-style: none;
-  font-family: Arial, sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -20,6 +53,12 @@ nav ul li {
   margin-right: 20px;
 }
 
+#mapid { 
+  min-height: 300px;
+  height: 60%;
+  width: 70%; 
+  position: relative;
+  }
 
 /*About*/
 .about-container {
@@ -85,15 +124,13 @@ div.container4 p {
     margin-right: -50%;
     transform: translate(-50%, -50%) }
 
-    
   }
-
-#mapid { height: 180px; }
+  /*end of about site*/
 
 
 /*clara's css*/
 
-html {
+/*html {
   box-sizing: border-box;
 }
 
@@ -113,9 +150,9 @@ html {
     width: 100%;
     display: block;
   }
-}
+}*/
 
-.card {
+/*.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -131,14 +168,14 @@ html {
 
 .title {
   color: grey;
-}
+}*/
 
 .button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+  color: red;
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -149,38 +186,32 @@ html {
   background-color: #555;
 }
 
-html,
+/*html, footer {
+background: #000000; color: #d3d3d3; }*/
 
-footer {
-background: #000000; color: #d3d3d3; }
-
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-#container {
-   min-height:100%;
+/*#container {
    position:relative;
 }
 #header {
    background:#ff0;
-   padding:10px;
+   padding:3%;
 }
 #body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-#footer {
+   padding:3%;
+   padding-bottom:3%;   /* Height of the footer */
+/*}*/
+
+footer {
    position:absolute;
+   text-align: center;
    bottom:0;
    width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
+/*   height:4%;    Height of the footer */
+   margin-bottom: 2%;
 }
 
-#container {
-   height:100%;
+footer p {
+  text-align: center;
 }
 
 /*end of clara's css*/
