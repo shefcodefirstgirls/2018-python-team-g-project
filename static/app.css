@@ -114,14 +114,9 @@ input[type=submit]:hover {
 
 /*About*/
 .about-container {
-    display: grid;
-    grid-template-rows: 2fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "block block1 block2" ;
-    grid-auto-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 2fr 2fr;
-    margin-bottom: 15%
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
 }
 
 @media screen and (max-width: 750px) {
@@ -172,7 +167,6 @@ div.container4 p {
     margin-right: -50%;
     transform: translate(-50%, -50%) }
 
-  }
   /*end of about site*/
 
 footer {

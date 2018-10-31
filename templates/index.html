@@ -26,13 +26,17 @@
 
 </div>
 <script>
-  $('.tag a').click(function (e) {
-    e.preventDefault();
-    var click_value = $(this).attr("data-value");
-    $('#hash').val(click_value);
-    console.log(click_value)
-    $('#search').click()
- });
+//   $('.tag a').click(function (e) {
+//     e.preventDefault();
+//     var click_value = $(this).attr("data-value");
+//     $('#hash').val(click_value);
+//     console.log(click_value)
+//     $('#search').click()
+//  });
+ $('#search').click(function(e) {
+   e.preventDefault();
+   console.log("Prevented form submit!");
+ })
   </script>
 
 {% include "footer.html" %}

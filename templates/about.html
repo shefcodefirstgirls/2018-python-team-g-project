@@ -1,17 +1,11 @@
 {% include "header.html" %}
-
+  <style>
+    .all_body {
+      min-height: 50vh;
+    }
+  </style>
   <div class="about-container" style="padding-top: 10% ">
-    {% for member in members %}
-      <div class="blocks block">
-        <h2>{{member["name"]}}</h2>
-        <img src="{{member['avatarUrl']}}" alt="{{member['name']}}" style="width: 40%; border-radius: 50%;">
-        <br><br>
-        <p style="width: 60%; margin: 0 auto; border-radius: 5%;">{{member["bio"]}}</p>
-
-      </div>
-
-    {% endfor %}
-
+    <h2>Shoot! Can't display the members of the team without using an API with Python...</h2>
   </div>
 
 {% include "footer.html" %}
