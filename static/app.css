@@ -158,6 +158,7 @@ input[type=submit]:hover {
 
 .block {
   text-align: center;
+  padding-right: 3%;
 }
 
 /* About the site*/
@@ -182,6 +183,8 @@ footer {
    width:100%;
 /*   height:4%;    Height of the footer */
    margin-bottom: 2%;
+   padding-left: 2%;
+   padding-right: 2%;
 }
 
 footer p {
