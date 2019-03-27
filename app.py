@@ -32,7 +32,7 @@ def about():
 	return render_template("about.html", members=profiles, enumerate=enumerate)
 
 @app.route("/hashtags/<searchterm>/<n>",methods=['GET'])
-def hashtags(searchterm="#sheftechwomen",n=50):
+def hashtags(searchterm="sheftechwomen",n=50):
     n=int(n)
     api = authenticate(consumer_key, consumer_secret, access_token, access_token_secret)
     tweets = get_hashtags(api, searchterm, n)

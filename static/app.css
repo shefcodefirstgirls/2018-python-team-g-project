@@ -180,7 +180,7 @@ div.container4 p {
   /*end of about site*/
 
 footer {
-   position:relative;
+   position: absolute;
    text-align: center;
    bottom:0;
    width:100%;
